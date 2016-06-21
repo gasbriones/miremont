@@ -1,0 +1,43 @@
+@media screen and (max-width: 35.5em) {
+  .gradient {
+    height: auto; }
+
+  .sponsor {
+    margin: 1.25em 0; }
+
+  .header {
+    overflow: hidden; }
+
+  .header .header-wrapper .logo {
+    position: relative;
+    margin: 0 auto;
+    display: table;
+    width: 80%;
+    left: inherit;
+    transform: none; }
+    .header .header-wrapper .logo img {
+      width: 100%; }
+
+  .header-wrapper figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+
+  .header .header-wrapper .slogan {
+    position: relative;
+    bottom: inherit;
+    margin-top: 1.25em; }
+
+  .header .menu-wrapper {
+    position: relative;
+    bottom: inherit; }
+
+  .header .menu-wrapper .menu li {
+    width: 100%;
+    margin-bottom: 0.625em; } }
+@media screen and (max-width: 48em) {
+  .header .menu-wrapper .menu li a::before {
+    left: 5%; } }
+
+/*# sourceMappingURL=mediaqueries.css.map */

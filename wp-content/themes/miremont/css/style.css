@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Light.woff") format("woff"), url("../fonts/Avenir-Light.ttf") format("truetype"), url("../fonts/Avenir-Light.svg#Avenir-Light") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Book.woff") format("woff"), url("../fonts/Avenir-Book.ttf") format("truetype"), url("../fonts/Avenir-Book.svg#Avenir-Book") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Medium.woff") format("woff"), url("../fonts/Avenir-Medium.ttf") format("truetype"), url("../fonts/Avenir-Medium.svg#Avenir-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Heavy.woff") format("woff"), url("../fonts/Avenir-Heavy.ttf") format("truetype"), url("../fonts/Avenir-Heavy.svg#Avenir-Heavy") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+html {
+  background: #a3a3a3; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Avenir;
+  font-size: 1em; }
+
+.wrapper {
+  width: 100%;
+  max-width: 80em;
+  margin: 0 auto; }
+
+.header {
+  border-top: solid 1.875em #E9212D; }
+  .header .header-wrapper {
+    position: relative; }
+    .header .header-wrapper .logo {
+      position: absolute;
+      top: 1.875em;
+      left: 50%;
+      transform: translate(-50%, 0); }
+    .header .header-wrapper .slogan {
+      font-size: 2.125em;
+      font-weight: 500;
+      color: #ffffff;
+      position: absolute;
+      bottom: 1.17647em;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      .header .header-wrapper .slogan p {
+        margin: 0; }
+  .header .menu-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: -1.875em; }
+    .header .menu-wrapper .menu {
+      margin: 0 auto;
+      display: table;
+      width: 100%;
+      line-height: 3.75em;
+      box-shadow: -2px 5px 15px -4px black; }
+      .header .menu-wrapper .menu li {
+        float: left;
+        width: 33.333%;
+        background: #ffffff; }
+        .header .menu-wrapper .menu li a {
+          display: block;
+          color: #FFFFFF;
+          font-size: 1.3125em;
+          text-transform: uppercase;
+          text-decoration: none;
+          background: #E9212D;
+          text-align: center;
+          position: relative; }
+          .header .menu-wrapper .menu li a:before {
+            content: "";
+            position: absolute;
+            width: 0.875em;
+            height: 0.875em;
+            background: url("../images/icon-stars.png") no-repeat;
+            left: 10%;
+            top: 1em; }
+          .header .menu-wrapper .menu li a:hover {
+            opacity: 0.8; }
+        .header .menu-wrapper .menu li:nth-child(2) a {
+          background: #393F4D !important; }
+  .header .logo-container {
+    margin-top: 1.5625em; }
+
+.gradient {
+  height: 10em;
+  background: radial-gradient(#ffffff 0%, #393F4D 100%, #000000 150%); }
+
+.about-us {
+  background: #F0F1F1; }
+  .about-us .about-us-content {
+    margin-top: 2.8125em; }
+    .about-us .about-us-content .title {
+      font-size: 1em;
+      font-weight: 300;
+      color: #393F4D;
+      margin-bottom: 1.875em; }
+      .about-us .about-us-content .title span {
+        font-size: 1.5625em;
+        font-weight: 700; }
+    .about-us .about-us-content .text {
+      color: #393F4D;
+      font-weight: 300;
+      text-align: justify;
+      margin-bottom: 2.8125em; }
+      .about-us .about-us-content .text p {
+        font-size: 0.875em; }
+    .about-us .about-us-content .slogan {
+      color: #393F4D;
+      text-align: center;
+      font-size: 1.4375em;
+      margin-top: 4.34783em;
+      line-height: 1.1;
+      position: relative; }
+      .about-us .about-us-content .slogan:before, .about-us .about-us-content .slogan:after {
+        content: "";
+        position: absolute;
+        width: 4.1875em;
+        height: 0.625em;
+        background: url("../images/icon-stars-gray.png") no-repeat;
+        left: 55%;
+        transform: translate(-50%, 0); }
+      .about-us .about-us-content .slogan:before {
+        top: -2.1875em; }
+      .about-us .about-us-content .slogan:after {
+        bottom: -2.1875em; }
+    .about-us .about-us-content .social .fb {
+      color: #393F4D;
+      font-size: 1.25em;
+      text-decoration: none;
+      margin: 5em auto 0;
+      display: table;
+      font-weight: 300;
+      position: relative; }
+      .about-us .about-us-content .social .fb:before {
+        content: "";
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        background: url("../images/icon-fb.png") no-repeat;
+        left: -2.5em;
+        top: -0.4em; }
+      .about-us .about-us-content .social .fb:hover {
+        opacity: 0.7; }
+
+.products {
+  position: relative;
+  background: #E9212D;
+  padding-top: 4.375em; }
+  .products:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.8125em;
+    background: rgba(255, 255, 255, 0.2);
+    left: 0;
+    top: -2.8125em; }
+  .products .prod-logo {
+    position: absolute;
+    width: 7em;
+    height: 7.46667em;
+    top: -4.375em;
+    left: 50%;
+    transform: translate(-50%, 0); }
+    .products .prod-logo:before, .products .prod-logo:after {
+      content: "";
+      position: absolute;
+      width: 5.5625em;
+      height: 0.875em;
+      background: url("../images/icon-stars-white.png") no-repeat;
+      transform: translate(-50%, 0);
+      top: 2.5em; }
+    .products .prod-logo:before {
+      right: -135%; }
+    .products .prod-logo:after {
+      left: -57%; }
+  .products .title {
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 100%; }
+    .products .title span {
+      font-weight: 700; }
+  .products .prod-container {
+    font-size: 0.8125em;
+    color: #393F4D;
+    margin-bottom: 2.5em;
+    text-decoration: none; }
+    .products .prod-container:hover {
+      opacity: 0.8; }
+    .products .prod-container .prod-description {
+      box-sizing: border-box;
+      padding: 1.25em 1.5625em;
+      background: #FFFFFF; }
+      .products .prod-container .prod-description p {
+        margin: 0; }
+      .products .prod-container .prod-description .prod-title {
+        font-weight: 600; }
+    .products .prod-container .prod-img {
+      background: #ffffff;
+      box-sizing: border-box;
+      padding: 0.9375em; }
+  .products .marks {
+    background: #E8E8E8;
+    padding: 0.625em 0; }
+
+.contact {
+  background: #393F4D;
+  font-weight: 300;
+  border-bottom: solid 1.875em #E9212D; }
+  .contact .data {
+    margin-top: 2.5em; }
+  .contact form {
+    box-sizing: border-box;
+    color: #ffffff; }
+  .contact .contact-data li {
+    margin-bottom: 1.875em;
+    color: #ffffff;
+    position: relative; }
+    .contact .contact-data li:before {
+      content: '';
+      position: absolute;
+      background: url("../images/contact-icons.png") no-repeat;
+      height: 1.875em;
+      width: 1.5em;
+      top: 0;
+      left: -3.125em; }
+    .contact .contact-data li a {
+      color: #ffffff;
+      text-decoration: none; }
+      .contact .contact-data li a:hover {
+        opacity: 0.7; }
+    .contact .contact-data li.hours:before {
+      background-position: 0 -4em; }
+    .contact .contact-data li.mail:before {
+      background-position: 0 -8.4375em; }
+    .contact .contact-data li.fb:before {
+      left: -2.5em;
+      background-position: 0 -187px; }
+  .contact .title {
+    font-size: 1.375em;
+    margin-bottom: 0.90909em;
+    font-weight: 300;
+    color: #ffffff; }
+  .contact .input {
+    background: transparent;
+    border: solid 1px #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.625em;
+    color: #ffffff;
+    padding: 0.1875em 0.3125em; }
+  .contact .boton {
+    background: transparent;
+    border: solid 1px #ffffff;
+    float: right;
+    color: #ffffff;
+    font-size: 0.75em;
+    padding: 0.5em; }
+  .contact .mail a {
+    color: #ffffff;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-weight: 500; }
+  .contact .fb {
+    font-size: 1.25em;
+    font-weight: 500; }
+  .contact .map {
+    position: relative; }
+    .contact .map:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 100px #000000;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      position: absolute; }
+
+#back-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99999;
+  display: none; }
+
+.paginador {
+  text-align: center; }
+  .paginador a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.125em; }
+
+/*# sourceMappingURL=style.css.map */
