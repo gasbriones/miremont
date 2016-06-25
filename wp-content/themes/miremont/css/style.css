@@ -28,6 +28,10 @@ html, body {
   max-width: 80em;
   margin: 0 auto; }
 
+[class*="grid"] > [class*="col-4"].gallery {
+  flex-basis: 31%;
+  max-width: 31%; }
+
 .header {
   padding-top: 3.125em;
   margin-bottom: 1.5625em; }
@@ -46,10 +50,19 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: 3.75em;
+  font-size: 4.375em;
   text-transform: uppercase;
   line-height: 1;
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.64286em;
+  position: relative;
+  display: table; }
+  .page-title:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.04286em;
+    bottom: -0.38571em;
+    left: 0; }
 
 .about {
   padding: 5.625em 0 !important; }
@@ -63,8 +76,64 @@ html, body {
 
 .museum {
   background: #C4C5C0;
-  padding: 5.625em 0 !important; }
+  padding: 3.75em 0 6.25em !important; }
   .museum .page-title {
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 1.25em; }
+    .museum .page-title:before {
+      background: #fff; }
+  .museum .gallery {
+    margin-bottom: 1.875em; }
+    .museum .gallery a {
+      display: block;
+      padding-bottom: 0.9375em;
+      border-bottom: solid 0.1875em #E3E3E3; }
+    .museum .gallery .page-text {
+      font-size: 1.25em;
+      color: #7B7E75;
+      text-align: justify;
+      padding: 0; }
+
+.expo {
+  background: #ffffff;
+  padding: 3.75em 0 6.25em !important; }
+  .expo .page-title {
+    color: #7E7E7D;
+    margin-bottom: 1.25em; }
+    .expo .page-title:before {
+      background: #7E7E7D; }
+  .expo .gallery {
+    margin-bottom: 1.875em; }
+    .expo .gallery .title {
+      color: #B57E11;
+      font-family: ITCKabelStd-Book;
+      text-transform: uppercase;
+      font-size: 1.375em;
+      margin-top: 0.9375em;
+      position: relative; }
+      .expo .gallery .title:before {
+        position: absolute;
+        content: "";
+        height: 1.875em;
+        width: 1.875em;
+        top: 0;
+        left: -2.8125em;
+        background: url("../images/more-expo.png") no-repeat; }
+    .expo .gallery .page-text {
+      font-size: 1.25em;
+      color: #7B7E75;
+      text-align: justify;
+      padding: 0; }
+      .expo .gallery .page-text p {
+        margin: 0; }
+
+.team {
+  background: #CDC6B4;
+  padding: 3.75em 0 6.25em !important; }
+  .team .page-title {
+    color: #fff;
+    margin-bottom: 1.25em; }
+    .team .page-title:before {
+      background: #fff; }
 
 /*# sourceMappingURL=style.css.map */
