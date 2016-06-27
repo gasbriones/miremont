@@ -32,6 +32,18 @@ html, body {
   flex-basis: 31%;
   max-width: 31%; }
 
+.aspect {
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden; }
+  .aspect img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; }
+
 .header {
   padding-top: 3.125em;
   margin-bottom: 1.5625em; }
@@ -50,7 +62,7 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: 4.375em;
+  font-size: 4.6875em;
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 0.64286em;
@@ -74,9 +86,17 @@ html, body {
   box-sizing: border-box;
   padding-right: 8%; }
 
+.subtitle {
+  font-family: BelleroseLight;
+  color: #6A676D;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 0.625em; }
+
 .museum {
   background: #C4C5C0;
-  padding: 3.75em 0 6.25em !important; }
+  padding: 3.125em 0 6.25em !important; }
   .museum .page-title {
     color: #fff;
     margin-bottom: 1.25em; }
@@ -96,7 +116,7 @@ html, body {
 
 .expo {
   background: #ffffff;
-  padding: 3.75em 0 6.25em !important; }
+  padding: 3.125em 0 6.25em !important; }
   .expo .page-title {
     color: #7E7E7D;
     margin-bottom: 1.25em; }
@@ -129,11 +149,94 @@ html, body {
 
 .team {
   background: #CDC6B4;
-  padding: 3.75em 0 6.25em !important; }
+  padding: 3.125em 0 3.75em !important; }
   .team .page-title {
     color: #fff;
     margin-bottom: 1.25em; }
     .team .page-title:before {
       background: #fff; }
+  .team .content {
+    font-family: ITCKabelStd-Book;
+    margin-bottom: 7.8125em; }
+    .team .content .member {
+      position: relative; }
+      .team .content .member .photo {
+        width: 100%; }
+      .team .content .member .data {
+        position: absolute;
+        background: #CDC6B4;
+        width: 80%;
+        left: 10%;
+        bottom: -27%;
+        text-align: center;
+        padding-top: 0.9375em; }
+        .team .content .member .data .name {
+          color: #000000;
+          font-size: 1.5em; }
+        .team .content .member .data .specialist p {
+          margin: 0;
+          color: #ffffff;
+          font-size: 1.375em; }
+        .team .content .member .data .linkedin {
+          display: block;
+          color: #ffffff;
+          font-size: 1.5em;
+          background: #717171;
+          display: table;
+          margin: 0.83333em auto 0;
+          text-decoration: none;
+          padding: 0.20833em 0.625em; }
+
+.doing {
+  background: #EBEBEB;
+  padding: 3.75em 0 6.25em !important; }
+  .doing .page-title {
+    color: #B57E11;
+    margin-bottom: 1.25em; }
+    .doing .page-title:before {
+      background: #B57E11; }
+  .doing .gallery {
+    margin-bottom: 5.625em; }
+    .doing .gallery:last-child {
+      margin-bottom: 0; }
+    .doing .gallery .title {
+      color: #B57E11;
+      font-family: ITCKabelStd-Book;
+      text-transform: uppercase;
+      font-size: 1.375em;
+      position: relative; }
+      .doing .gallery .title:before {
+        position: absolute;
+        content: "";
+        height: 1.875em;
+        width: 1.875em;
+        top: 0;
+        left: -2.8125em;
+        background: url("../images/more-expo.png") no-repeat; }
+    .doing .gallery .page-text {
+      font-size: 1.25em;
+      color: #7B7E75;
+      text-align: justify;
+      padding: 0; }
+      .doing .gallery .page-text p {
+        margin: 0; }
+    .doing .gallery .fancybox img {
+      width: 100%; }
+
+.press {
+  background: #fff;
+  padding: 3.75em 0 6.25em !important; }
+  .press .articles {
+    margin-bottom: 7.5em; }
+  .press .page-title {
+    color: #B57E11;
+    margin-bottom: 0.9375em; }
+    .press .page-title:before {
+      background: #B57E11; }
+  .press .photo {
+    width: 100%; }
+  .press .videos .embed iframe {
+    width: 100% !important;
+    height: 100% !important; }
 
 /*# sourceMappingURL=style.css.map */

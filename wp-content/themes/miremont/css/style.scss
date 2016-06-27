@@ -56,6 +56,21 @@ html, body {
   }
 }
 
+.aspect{
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+
 .header {
   padding-top: (50em/16);
   margin-bottom: (25em/16);
@@ -81,7 +96,7 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: (70em/16);
+  font-size: (75em/16);
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: (45em/70);
@@ -110,9 +125,18 @@ html, body {
   padding-right: 8%;
 }
 
+.subtitle{
+  font-family: BelleroseLight;
+  color: #6A676D;
+  font-size: (36em/16);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: (10em/16);
+}
+
 .museum {
   background: #C4C5C0;
-  padding: (60em/16) 0 (100em/16) !important;
+  padding: (50em/16) 0 (100em/16) !important;
   .page-title {
     color: #fff;
     margin-bottom: (20em/16);
@@ -139,7 +163,7 @@ html, body {
 
 .expo {
   background: #ffffff;
-  padding: (60em/16) 0 (100em/16) !important;
+  padding: (50em/16) 0 (100em/16) !important;
   .page-title {
     color: #7E7E7D;
     margin-bottom: (20em/16);
@@ -181,7 +205,7 @@ html, body {
 
 .team {
   background: #CDC6B4;
-  padding: (60em/16) 0 (100em/16) !important;
+  padding: (50em/16) 0 (60em/16) !important;
   .page-title {
     color: #fff;
     margin-bottom: (20em/16);
@@ -190,7 +214,124 @@ html, body {
     }
   }
 
-  .gallery {
+  .content {
+    font-family: ITCKabelStd-Book;
+    margin-bottom: (125em/16);
 
+    .member{
+      position: relative;
+      .photo{
+        width: 100%;
+      }
+      .data{
+        position: absolute;
+        background: #CDC6B4;
+        width: 80%;
+        left: 10%;
+        bottom: -27%;
+        text-align: center;
+        padding-top: (15em/16);
+        .name{
+          color: #000000;
+          font-size: (24em/16);
+        }
+        .specialist{
+          p{
+            margin: 0;
+            color: #ffffff;
+            font-size: (22em/16);
+          }
+        }
+        .linkedin{
+          display: block;
+          color: #ffffff;
+          font-size: (24em/16);
+          background:#717171;
+          display: table;
+          margin: (20em/24) auto 0;
+          text-decoration: none;
+          padding: (5em/24)(15em/24) ;
+        }
+      }
+    }
+  }
+}
+
+
+.doing {
+  background: #EBEBEB;
+  padding: (60em/16) 0 (100em/16) !important;
+  .page-title {
+    color: #B57E11;
+    margin-bottom: (20em/16);
+    &:before {
+      background: #B57E11;
+    }
+  }
+
+  .gallery{
+    margin-bottom: (90em/16);
+    &:last-child{
+      margin-bottom: 0;
+    }
+    .title {
+      color: #B57E11;
+      font-family: ITCKabelStd-Book;
+      text-transform: uppercase;
+      font-size: (22em/16);
+      position: relative;
+
+      &:before{
+        position: absolute;
+        content: "";
+        height: (30em/16);
+        width: (30em/16);
+        top:0;
+        left: (-45em/16);
+        background: url("../images/more-expo.png") no-repeat;
+      }
+    }
+    .page-text {
+      font-size: (20em/16);
+      color: #7B7E75;
+      text-align: justify;
+      padding: 0;
+      p{
+        margin: 0;
+      }
+    }
+    .fancybox{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+.press{
+  background: #fff;
+  padding: (60em/16) 0 (100em/16) !important;
+
+  .articles{
+    margin-bottom: (120em/16);
+  }
+  .page-title {
+    color: #B57E11;
+    margin-bottom: (15em/16);
+    &:before {
+      background: #B57E11;
+    }
+  }
+  .photo{
+    width: 100%;
+  }
+
+  .videos{
+    .embed{
+      iframe{
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
   }
 }
