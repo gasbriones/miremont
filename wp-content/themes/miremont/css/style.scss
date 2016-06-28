@@ -194,7 +194,6 @@ html, body {
     .page-text {
       font-size: (20em/16);
       color: #7B7E75;
-      text-align: justify;
       padding: 0;
       p{
         margin: 0;
@@ -324,6 +323,7 @@ html, body {
   }
   .photo{
     width: 100%;
+    border: solid 1px #000;
   }
 
   .videos{
@@ -332,6 +332,111 @@ html, body {
         width: 100% !important;
         height: 100% !important;
       }
+    }
+  }
+}
+
+.contact{
+  background: #fff;
+  padding: (60em/16) 0 (100em/16) !important;
+  .title{
+    font-family: BelleroseLight;
+    color: #B57E11;
+    font-size: (28em/16);
+    line-height: 1;
+  }
+
+  .info{
+    font-family: ITCKabelStd-Book;
+    color: #7B7E75;
+    font-size: (18em/16);
+    border-top: solid 1px #FBFBFB;
+    padding: (10em/18) (10em/18) 0 (10em/18);
+    a{
+      color: #7B7E75;
+      text-decoration: none;
+    }
+  }
+  .text-right{
+    text-align: right;
+  }
+
+  .social{
+    padding-top: (30em/16);
+    .title{
+      line-height: 1;
+    }
+    .social-icons{
+      float: right;
+      display: table;
+      li{
+        float: left;
+        margin-left: (25em/16);
+        &:first-child{
+          margin-left: 0;
+        }
+        a{
+          background: url("../images/social.png") no-repeat;
+          width: (50em/18);
+          height: (50em/18);
+          display: block;
+          &.fb{
+            background-position: (-73em/18) 0;
+          }
+          &.inst{
+            background-position: (-147em/18) 0;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-form{
+    label{
+      display: block;
+      font-family: ITCKabelStd-Book;
+      color: #7B7E75;
+      font-size: (18em/16);
+      margin-bottom: (10em/16);
+      input{
+        border: solid 1px #7B7E75;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 2;
+        padding: 0 (10em/16);
+        color: #7B7E75;
+        font-family: ITCKabelStd-Book;
+      }
+      textarea{
+        border: solid 1px #7B7E75;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 1;
+        color: #7B7E75;
+        font-family: ITCKabelStd-Book;
+        padding:(10em/16);
+        height: (100em/16);
+      }
+    }
+  }
+
+}
+
+#footer{
+  background-color: #B57E11;
+  padding: (35em/16) 0;
+  .info{
+    font-family: ITCKabelStd-Book;
+    color: #ffffff;
+    font-size: (18em/16);
+    border-bottom: solid 1px #FBFBFB;
+    padding: (10em/18) (10em/18) 0 (10em/18);
+    a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .text-right{
+      text-align: right;
     }
   }
 }

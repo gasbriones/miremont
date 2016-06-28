@@ -33,12 +33,12 @@ $videos = new WP_Query(array(
         </div>
         <div class="col-10 grid-center grid-bottom menu-wrapper">
             <ul class="menu col-11">
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Museos</a></li>
-                <li><a href="#">Expos</a></li>
-                <li><a href="#">Equipo</a></li>
-                <li><a href="#">Lo que estamos haciendo</a></li>
-                <li><a href="#">Prensa</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#museos">Museos</a></li>
+                <li><a href="#exposiciones">Expos</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
+                <li><a href="#prensa">Prensa</a></li>
             </ul>
         </div>
     </header>
@@ -194,25 +194,80 @@ $videos = new WP_Query(array(
                     <div class="col-12 grid">
                         <?php if ($articles->have_posts()):
                             while ($articles->have_posts()):$articles->the_post(); ?>
-                                <div class="col-3">
-                                    <figure class="photo aspect">
-                                        <img src="<?php echo the_field('page_image') ?>"/>
-                                    </figure>
+                                <div class="col-3 grid-center ">
+                                    <div class="col-11">
+                                        <figure class="photo aspect">
+                                            <a target="_blank" href="<?php echo the_field('page_image') ?>"
+                                               title="<?php the_title(); ?>">
+                                                <img src="<?php echo the_field('page_image') ?>"/>
+                                            </a>
+                                        </figure>
+                                    </div>
                                 </div>
                             <?php endwhile; endif; ?>
                     </div>
                 </div>
-
                 <div class="col-12 grid videos">
                     <h2 class="subtitle">Videos</h2>
                     <div class="col-12 grid">
                         <?php if ($videos->have_posts()):
                             while ($videos->have_posts()):$videos->the_post(); ?>
-                                <div class="col-3 embed">
-                                    <?php echo the_field('video') ?>
+                                <div class="col-3 grid-center">
+                                    <div class="col-11 embed">
+                                        <?php echo the_field('video') ?>
+                                    </div>
                                 </div>
-                            <?php endwhile; endif; ?>
+                        <?php endwhile; endif; ?>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacto" class="col-12 grid-center contact">
+            <div class="col-11 grid">
+                <div class="col-6 grid">
+                    <h1 class="col-12 title">Contactános</h1>
+                    <div class="col-10 grid info">
+                        <div class="col-6">Teléfono:</div>
+                        <div class="col-6 text-right">+ 54 11 15 31 21 5667</div>
+                    </div>
+                    <div class="col-10 grid info">
+                        <div class="col-6">Email:</div>
+                        <div class="col-6 text-right"><a href="mailto:gm@miramont.com.ar">gm@miramont.com.ar</a></div>
+                    </div>
+                    <div class="col-10 grid info">
+                        <div class="col-6">Dirección:</div>
+                        <div class="col-6 text-right">Enrique Martinez 210, 2do. B</br>
+                            C.A.B.A, Argentina</div>
+                    </div>
+                    <div class="col-10 grid info social">
+                        <div class="col-6">
+                            <h1 class="col-12 title">Seguínos</h1>
+                        </div>
+                        <div class="col-6 text-right">
+                            <ul class="social-icons">
+                                <li><a href="#" class="yt"></a></li>
+                                <li><a href="#" class="fb"></a></li>
+                                <li><a href="#" class="inst"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 form">
+                    <form class="contact-form">
+                        <label>
+                            Nombre <br> <input type="text" />
+                        </label>
+                        <label>
+                            e-mail <br> <input type="text" />
+                        </label>
+                        <label>
+                            Teléfono <br> <input type="text" />
+                        </label>
+                        <label>
+                            Consulta <br> <textarea> </textarea>
+                        </label>
+
+                    </form>
                 </div>
             </div>
         </div>

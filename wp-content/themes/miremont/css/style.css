@@ -142,7 +142,6 @@ html, body {
     .expo .gallery .page-text {
       font-size: 1.25em;
       color: #7B7E75;
-      text-align: justify;
       padding: 0; }
       .expo .gallery .page-text p {
         margin: 0; }
@@ -234,9 +233,89 @@ html, body {
     .press .page-title:before {
       background: #B57E11; }
   .press .photo {
-    width: 100%; }
+    width: 100%;
+    border: solid 1px #000; }
   .press .videos .embed iframe {
     width: 100% !important;
     height: 100% !important; }
+
+.contact {
+  background: #fff;
+  padding: 3.75em 0 6.25em !important; }
+  .contact .title {
+    font-family: BelleroseLight;
+    color: #B57E11;
+    font-size: 1.75em;
+    line-height: 1; }
+  .contact .info {
+    font-family: ITCKabelStd-Book;
+    color: #7B7E75;
+    font-size: 1.125em;
+    border-top: solid 1px #FBFBFB;
+    padding: 0.55556em 0.55556em 0 0.55556em; }
+    .contact .info a {
+      color: #7B7E75;
+      text-decoration: none; }
+  .contact .text-right {
+    text-align: right; }
+  .contact .social {
+    padding-top: 1.875em; }
+    .contact .social .title {
+      line-height: 1; }
+    .contact .social .social-icons {
+      float: right;
+      display: table; }
+      .contact .social .social-icons li {
+        float: left;
+        margin-left: 1.5625em; }
+        .contact .social .social-icons li:first-child {
+          margin-left: 0; }
+        .contact .social .social-icons li a {
+          background: url("../images/social.png") no-repeat;
+          width: 2.77778em;
+          height: 2.77778em;
+          display: block; }
+          .contact .social .social-icons li a.fb {
+            background-position: -4.05556em 0; }
+          .contact .social .social-icons li a.inst {
+            background-position: -8.16667em 0; }
+  .contact .contact-form label {
+    display: block;
+    font-family: ITCKabelStd-Book;
+    color: #7B7E75;
+    font-size: 1.125em;
+    margin-bottom: 0.625em; }
+    .contact .contact-form label input {
+      border: solid 1px #7B7E75;
+      width: 100%;
+      box-sizing: border-box;
+      line-height: 2;
+      padding: 0 0.625em;
+      color: #7B7E75;
+      font-family: ITCKabelStd-Book; }
+    .contact .contact-form label textarea {
+      border: solid 1px #7B7E75;
+      width: 100%;
+      box-sizing: border-box;
+      line-height: 1;
+      color: #7B7E75;
+      font-family: ITCKabelStd-Book;
+      padding: 0.625em;
+      height: 6.25em; }
+
+#footer {
+  background-color: #B57E11;
+  padding: 2.1875em 0; }
+  #footer .info {
+    font-family: ITCKabelStd-Book;
+    color: #ffffff;
+    font-size: 1.125em;
+    border-bottom: solid 1px #FBFBFB;
+    padding: 0.55556em 0.55556em 0 0.55556em; }
+    #footer .info a {
+      color: #ffffff;
+      text-decoration: none; }
+    #footer .info .text-right {
+      text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

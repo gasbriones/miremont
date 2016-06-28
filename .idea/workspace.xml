@@ -2,505 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a3869a-7101-4e92-9c8c-8921f6de5846" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Contenido Web Miremont.docx.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/Foto web bn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/GM .jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/Lula.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/Perfil_noa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/cesar castellano.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/gaston-arismendi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Equipo/perfil_ana.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Arte Ba 2011/phoca_thumb_l_arteba_2011_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Evita una vida en imágenes/phoca_thumb_l_Evita_una_vida_imagenes_brandsen_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Evita una vida en imágenes/phoca_thumb_l_Evita_una_vida_imagenes_brandsen_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Feria del Anticuario 2007 /phoca_thumb_l_feria_anticuarios_2005_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Gardel/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Gardel/phoca_thumb_l_gardel_donacion_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Gardel/phoca_thumb_l_gardel_donacion_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Gardel/phoca_thumb_l_gardel_donacion_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Gardel/phoca_thumb_l_gardel_donacion_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Guillermina Grombaum/phoca_thumb_l_grombaum_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/La Batalla/phoca_thumb_l_tucuman1812_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Los derechos humanos  en el bicentenario/phoca_thumb_l_der_human_9_julio_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_CCB_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_CCB_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_CCB_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_CCB_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_CCB_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Malvinas una oportunidad para la paz/phoca_thumb_l_malvinas_nuevo_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/María Silvia Corcuera Terán/phoca_thumb_l_corcuera_teran_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miguel Rep Gabriela Bettini/phoca_thumb_l_repbettini_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Miradas en el Camino/phoca_thumb_l_miradas_en_el_camino_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Paco Urondo/phoca_thumb_l_urondo_canal_7_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Pinacoteca Banco de la Nación Arg/phoca_thumb_l_Pinacoteca_Banco_Nacion_argentina_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Taza de TE/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Taza de TE/phoca_thumb_l_taza_te_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/Taza de TE/phoca_thumb_l_taza_te_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/ate arquitecto  de la Justicia Social/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/ate arquitecto  de la Justicia Social/phoca_thumb_l_Sabate_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/ate arquitecto  de la Justicia Social/phoca_thumb_l_Sabate_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/ate arquitecto  de la Justicia Social/phoca_thumb_l_Sabate_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Expo/ate arquitecto  de la Justicia Social/phoca_thumb_l_Sabate_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Belgraniana/phoca_thumb_l_casa_belgraniana09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Natal de Sarmiento/phoca_thumb_l_casa_sarmiento_34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/phoca_thumb_l_Museo_Casa_Padilla_Tucuman_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/phoca_thumb_l_Museo_Casa_Padilla_Tucuman_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/phoca_thumb_l_Museo_Casa_Padilla_Tucuman_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/phoca_thumb_l_Museo_Casa_Padilla_Tucuman_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Casa Padilla/phoca_thumb_l_Museo_Casa_Padilla_Tucuman_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/El Cadillal/phoca_thumb_l_cadillal_tucuman_24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Familia Perón/phoca_thumb_l_camarones_peron_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Histórico Quinta/phoca_thumb_l_san-vicente-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_Centro_de_Visitantes_de_Ledesma_Jujuy_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Ledesma/phoca_thumb_l_centro_de_visitantes_de_ledesma_jujuy_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAAM/phoca_thumb_l_maam_salta_36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/MAC/phoca_thumb_l_mac_salta_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Miguel Lillo/phoca_thumb_l_lillo_naturales_tucuman_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/+.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Arqueológico de Ambato/phoca_thumb_l_ambato-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_Atahualpa_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_Atahualpa_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_Atahualpa_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Atahualpa/phoca_thumb_l_atahualpa_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Bellas artes MAT/phoca_thumb_l_bellas_artes_tigre_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Evita. Buenos Aires/phoca_thumb_l_museo_evita_29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Histórico Afip/phoca_thumb_l_afip_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_malvinas_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Malvinas/phoca_thumb_l_museo_malvinas_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Marín/phoca_thumb_l_marin_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo Regional de Trevelin/phoca_thumb_l_treveling-chubut_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de Ciencias Antropológicas/phoca_thumb_l_ciencias_antropologicas_26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo de la Industria Azucarera/phoca_thumb_l_museo-azucarero-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Banco Provincia/phoca_thumb_l_bco_provincia_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Cabildo de Buenos Aires/phoca_thumb_l_cabildo_bs-as_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/phoca_thumb_l_malvinas_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/phoca_thumb_l_malvinas_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/phoca_thumb_l_malvinas_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/phoca_thumb_l_malvinas_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Museo del Soldado de Malvinas/phoca_thumb_l_malvinas_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Pigüé/phoca_thumb_l_Pigue_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Museos/Sanmartiniano/phoca_thumb_l_sanmartiniano_laramada_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/Clarin revista Viva.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/caras_brasil.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/edicion_impresa_tapa_mercurio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/inaug-vacacionesparatodos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/inauguracion_mercurio_edicion_impresa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/pagina 12 25 sep 2012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/tiempo argentino impreso.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/tiempo argentino web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/tucumannoticias.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Prensa/turismocero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1011667_212939318890267_936706359_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10246401_257996927717839_2764547168397947586_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10307182_267559723428226_7639814935419896450_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10363370_266886533495545_4788099276474991803_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10389687_269253046592227_5908871538512729182_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10409744_267559726761559_7146992956404276661_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10462980_271908296326702_5148434861096201755_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10492273_295857897265075_5479636988571149838_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10524352_298785456972319_4109398828534913352_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10548146_297957507055114_8991672026397269397_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10646985_323052327878965_7757818260030722210_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1072615_168897809961085_249978130_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10917218_371462726371258_3743198381148098233_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10943767_371464793037718_1139560055687283889_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/10953925_371508189700045_5762739305573207296_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1116005_178182819032584_154797561_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/11336951_419369771580553_2135925717262925037_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1229910_192014810982718_1579670925_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1402367_212613395589526_924526194_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1403078_206717849512414_26535735_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1512125_266886536828878_8987847495767244338_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1622528_235226319994900_1141619520_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/1781121_371464799704384_3583975427040317808_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/250655_102573466593520_135970595_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/305860_142949469222586_1383693009_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/316076_144189065765293_2093002920_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/483680_323393431178188_5986124437694865675_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/622428_178183072365892_974801001_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/859516_178183075699225_686033246_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/969472_213088588875340_1378606120_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/IMG_6338.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/IMG_6341.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/Trabajando/IMG_6353.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/Fotos/home/IMG_6742.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/assets/web miremont ok72dpi.psd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/js/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/js/fancybox/jquery.fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" />
     </list>
     <ignored path="miremont.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -525,7 +35,7 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="864">
               <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
               <folding />
             </state>
@@ -535,7 +45,7 @@
       <file leaf-file-name="wp-settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="810">
               <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding />
             </state>
@@ -545,8 +55,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="359">
+              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -555,9 +65,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="162" column="43" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="364">
+              <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -565,8 +77,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+            <state relative-caret-position="139">
+              <caret line="328" column="10" selection-start-line="328" selection-start-column="10" selection-end-line="328" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -585,8 +97,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="288">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -614,7 +126,9 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/multi-image-upload/miu_script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/miremont/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/index.php" />
       </list>
     </option>
@@ -630,9 +144,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="745" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -659,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -759,62 +272,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miremont" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notcompress" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -881,22 +338,24 @@
       <workItem from="1466636325668" duration="10790000" />
       <workItem from="1466813431898" duration="17787000" />
       <workItem from="1466867000354" duration="10217000" />
+      <workItem from="1467072865217" duration="2054000" />
+      <workItem from="1467077617380" duration="10261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42360000" />
+    <option name="totallyTimeSpent" value="54675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="745" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25256222" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521994" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -928,6 +387,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding />
@@ -954,7 +437,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5886">
+          <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,7 +572,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,6 +633,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/miu_script.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/multi-image-upload.php" />
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1088,21 +660,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/readme.txt" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/miu_script.js" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/multi-image-upload/multi-image-upload.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="359">
+          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state relative-caret-position="288">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1115,35 +684,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+        <state relative-caret-position="139">
+          <caret line="328" column="10" selection-start-line="328" selection-start-column="10" selection-end-line="328" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="162" column="43" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="364">
+          <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

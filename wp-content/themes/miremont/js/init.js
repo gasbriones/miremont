@@ -20,4 +20,15 @@ $(document).ready(function () {
         });
         return false;
     });
+
+    $('.menu li a').click(function () {
+        scroll ($(this).attr('href'));
+        return false;
+    })
 });
+
+function scroll (anchor){
+    $('html, body').animate({
+        'scrollTop':   $(anchor).offset().top
+    }, 1000);
+}
