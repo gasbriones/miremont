@@ -24,7 +24,15 @@ $(document).ready(function () {
     $('.menu li a').click(function () {
         scroll ($(this).attr('href'));
         return false;
-    })
+    });
+
+    $('.bxslider').bxSlider({
+        captions: false,
+        controls:false,
+        auto:true,
+        pager:false
+    });
+
 });
 
 function scroll (anchor){

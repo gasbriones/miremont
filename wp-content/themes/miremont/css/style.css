@@ -32,6 +32,13 @@ html, body {
   flex-basis: 31%;
   max-width: 31%; }
 
+.bx-wrapper .bx-viewport {
+  background: none;
+  border: none;
+  box-shadow: none;
+  left: 0;
+  transform: translateZ(0px); }
+
 .aspect {
   padding-bottom: 100%;
   position: relative;
@@ -78,6 +85,18 @@ html, body {
 
 .about {
   padding: 5.625em 0 !important; }
+  .about .slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: block; }
+    .about .slider-wrapper .bx-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .about .slider-wrapper .bx-wrapper img {
+        width: 100%; }
 
 .page-text {
   font-family: ITCKabelStd-Book;

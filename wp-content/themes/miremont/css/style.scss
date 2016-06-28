@@ -55,6 +55,16 @@ html, body {
     max-width: 31%;
   }
 }
+.bx-wrapper {
+  .bx-viewport{
+    background: none;
+    border: none;
+    box-shadow: none;
+    left: 0;
+    transform: translateZ(0px);
+  }
+
+}
 
 .aspect{
   padding-bottom: 100%;
@@ -115,6 +125,21 @@ html, body {
 
 .about {
   padding: (90em/16) 0 !important;
+  .slider-wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: block;
+    .bx-wrapper{
+      position: absolute;
+      left:0;
+      top: 0;
+      img{
+        width: 100%;
+      }
+    }
+  }
 }
 
 .page-text {
