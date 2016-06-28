@@ -273,6 +273,8 @@ $videos = new WP_Query(array(
         </div>
     </div>
 </div>
-<?php get_footer(); ?>
+<div class="wrapper">
+    <?php get_footer(); ?>
+</div>
 </body>
 </html>
