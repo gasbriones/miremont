@@ -33,6 +33,10 @@ $(document).ready(function () {
         pager:false
     });
 
+
+    $("#header").sticky({topSpacing:0});
+    $('#header').on('sticky-start', function() { console.log("Started"); });
+
 });
 
 function scroll (anchor){

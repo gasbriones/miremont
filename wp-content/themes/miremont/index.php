@@ -28,20 +28,23 @@ $videos = new WP_Query(array(
 ?>
 <body <?php body_class(); ?>>
 <div id="main" class="clearfix wrapper">
-  <header id="header" class="grid header">
-    <div class="col-2 logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logo-miremont.png"/>
+  <header id="header" class="header">
+    <div class="grid">
+      <div class="col-2 logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-miremont.png"/>
+      </div>
+      <div class="col-10 grid-center grid-bottom menu-wrapper">
+        <ul class="menu col-11">
+          <li><a href="#acerca-de">Acerca de</a></li>
+          <li><a href="#museos">Museos</a></li>
+          <li><a href="#exposiciones">Expos</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
+          <li><a href="#prensa">Prensa</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="col-10 grid-center grid-bottom menu-wrapper">
-      <ul class="menu col-11">
-        <li><a href="#acerca-de">Acerca de</a></li>
-        <li><a href="#museos">Museos</a></li>
-        <li><a href="#exposiciones">Expos</a></li>
-        <li><a href="#equipo">Equipo</a></li>
-        <li><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
-        <li><a href="#prensa">Prensa</a></li>
-      </ul>
-    </div>
+
   </header>
   <div id="main" class="grid-center main">
     <div id="home" class="col-12 home">

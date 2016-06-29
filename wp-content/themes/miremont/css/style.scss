@@ -81,9 +81,21 @@ html, body {
 }
 
 
+
+
+
 .header {
   padding-top: (50em/16);
-  margin-bottom: (25em/16);
+  background: #fff;
+  display: block;
+  transition: all 0.2s ease-in-out;
+  .logo{
+    img{
+      height: (40em/16);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
   .menu {
     li {
       float: left;
@@ -101,6 +113,34 @@ html, body {
       }
     }
   }
+  .logo{
+    img{
+      height: inherit;
+    }
+
+  }
+}
+.sticky-wrapper{
+  height: auto!important;
+}
+
+.is-sticky{
+  .header{
+    transition: all 0.2s ease-in-out;
+    padding: (10em/16) 0;
+    background: #fff;
+    z-index: 99 !important;
+    box-shadow: 0px 5px 4px -5px #888888;
+  }
+  .logo{
+    img{
+      height: (40em/16);
+    }
+  }
+}
+
+.main{
+  margin-top: (25em/16);
 }
 
 .page-title {
