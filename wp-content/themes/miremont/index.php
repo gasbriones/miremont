@@ -103,7 +103,7 @@ $videos = new WP_Query(array(
                        alt="<?php echo $arrayImg[0]['alt']; ?>"/>
                 </a>
                 <div class="page-text">
-                  <?php the_content(); ?>
+                  <p><b><?php the_title(); ?></b></p>
                 </div>
               </div>
             <?php endwhile; endif; ?>
@@ -190,7 +190,7 @@ $videos = new WP_Query(array(
                 <div class="col-2">
                   <h1 class="title col-8"><?php the_title(); ?></h1>
                   <div class="page-text col-8">
-                    <?php the_content(); ?>
+                    <?php the_excerpt(); ?>
                   </div>
                 </div>
 
