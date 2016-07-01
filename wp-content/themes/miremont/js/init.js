@@ -21,8 +21,19 @@ $(document).ready(function () {
         return false;
     });
 
+
+    var page = $.getURLParam("page");
+    if(page != null && page != '' ){
+        setTimeout(function () {
+            $('#'+page).animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:40});
+        },1000)
+
+        console.log(page);
+    }
+
     $('.menu li a').click(function () {
-        scroll ($(this).attr('href'));
+        var section = $(this).attr('href');
+        $(section).animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:40});
         return false;
     });
 
@@ -38,9 +49,3 @@ $(document).ready(function () {
     $('#header').on('sticky-start', function() { console.log("Started"); });
 
 });
-
-function scroll (anchor){
-    $('html, body').animate({
-        'scrollTop':   $(anchor).offset().top
-    }, 1000);
-}

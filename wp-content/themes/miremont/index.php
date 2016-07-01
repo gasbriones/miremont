@@ -1,8 +1,17 @@
 <?php
 get_header();
+
+$per_museum = $_GET['more'] == '' ? 3 : $_GET['more'];
+
+
+
 $home = new WP_Query('page_id=9');
 $about = new WP_Query('page_id=2');
-$museums = new WP_Query('cat=2');
+$museums = new WP_Query(array(
+    'cat' => '2',
+    'order' => 'ASC',
+    'posts_per_page'=>$per_museum
+));
 $expo = new WP_Query('cat=3');
 
 $team = new WP_Query(array(
@@ -106,17 +115,25 @@ $videos = new WP_Query(array(
                   <p><b><?php the_title(); ?></b></p>
                 </div>
               </div>
+              <?php $count++ ?>
             <?php endwhile; endif; ?>
+        </div>
+        <div class="col-12 grid-center">
+          <div class="col-2 more">
+            <a href="<?php echo site_url();?>/?page=museos&more=<?php echo $count+3?>">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_white.png"/>
+            </a>
+          </div>
         </div>
       </div>
     </div>
     <div id="exposiciones" class="col-12 grid-center expo">
       <div class="col-11 grid">
         <h1 class="page-title">Exposiciones</h1>
-        <div class="col-12 grid-spaceBetween">
+        <div class="col-12 grid-spaceAround grid-middle ">
           <?php if ($expo->have_posts()):
             while ($expo->have_posts()):$expo->the_post(); ?>
-              <div class="col-4 grid-center gallery">
+              <div class="col-4 col-top grid-center gallery">
                 <?php
                 $images = get_field('galeria_de_fotos');
                 $arrayImg = Array();
@@ -127,14 +144,14 @@ $videos = new WP_Query(array(
                 }
                 $jsonImg = json_encode($arrayImg);
                 ?>
-                <a class="fancybox" href="<?php echo $arrayImg[0]['href']; ?>"
+                <a class="fancybox col-12" href="<?php echo $arrayImg[0]['href']; ?>"
                    data-images='<?php echo $jsonImg ?>'>
                   <img src="<?php echo $arrayImg[0]['href']; ?>"
                        alt="<?php echo $arrayImg[0]['alt']; ?>"/>
                 </a>
                 <h1 class="title col-8"><?php the_title(); ?></h1>
-                <div class="page-text col-8">
-                  <?php the_content(); ?>
+                <div class="page-text col-10">
+                  <?php the_excerpt(); ?>
                 </div>
               </div>
             <?php endwhile; endif; ?>

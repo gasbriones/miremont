@@ -39,6 +39,11 @@ html, body {
   left: 0;
   transform: translateZ(0px); }
 
+.read-more {
+  color: #000000;
+  font-size: 0.875em;
+  text-decoration: none; }
+
 .aspect {
   padding-bottom: 100%;
   position: relative;
@@ -109,7 +114,6 @@ html, body {
   padding: 5.625em 0 !important; }
   .about .slider-wrapper {
     position: relative;
-    overflow: hidden;
     height: 100%;
     width: 100%;
     display: block; }
@@ -137,7 +141,7 @@ html, body {
 
 .museum {
   background: #C4C5C0;
-  padding: 3.125em 0 6.25em !important; }
+  padding: 3.125em 0 2.5em !important; }
   .museum .page-title {
     color: #fff;
     margin-bottom: 1.25em; }
@@ -358,5 +362,8 @@ html, body {
       text-decoration: none; }
     #footer .info .text-right {
       text-align: right; }
+
+.more {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

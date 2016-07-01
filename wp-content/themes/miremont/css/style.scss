@@ -63,7 +63,12 @@ html, body {
     left: 0;
     transform: translateZ(0px);
   }
+}
 
+.read-more{
+  color: #000000;
+  font-size: (14em/16);
+  text-decoration: none;
 }
 
 .aspect{
@@ -167,7 +172,6 @@ html, body {
   padding: (90em/16) 0 !important;
   .slider-wrapper{
     position: relative;
-    overflow: hidden;
     height: 100%;
     width: 100%;
     display: block;
@@ -201,7 +205,7 @@ html, body {
 
 .museum {
   background: #C4C5C0;
-  padding: (50em/16) 0 (100em/16) !important;
+  padding: (50em/16) 0 (40em/16) !important;
   .page-title {
     color: #fff;
     margin-bottom: (20em/16);
@@ -504,4 +508,7 @@ html, body {
       text-align: right;
     }
   }
+}
+.more{
+  text-align: center;
 }
