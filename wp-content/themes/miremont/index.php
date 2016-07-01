@@ -112,7 +112,7 @@ $videos = new WP_Query(array(
                        alt="<?php echo $arrayImg[0]['alt']; ?>"/>
                 </a>
                 <div class="page-text">
-                  <p><b><?php the_title(); ?></b></p>
+                  <?php the_content(); ?>
                 </div>
               </div>
               <?php $count++ ?>
@@ -151,7 +151,7 @@ $videos = new WP_Query(array(
                 </a>
                 <h1 class="title col-8"><?php the_title(); ?></h1>
                 <div class="page-text col-10">
-                  <?php the_excerpt(); ?>
+                  <?php the_content(); ?>
                 </div>
               </div>
             <?php endwhile; endif; ?>
@@ -207,7 +207,7 @@ $videos = new WP_Query(array(
                 <div class="col-2">
                   <h1 class="title col-8"><?php the_title(); ?></h1>
                   <div class="page-text col-8">
-                    <?php the_excerpt(); ?>
+                    <?php the_content(); ?>
                   </div>
                 </div>
 
@@ -297,7 +297,6 @@ $videos = new WP_Query(array(
             <label>
               Consulta <br> <textarea> </textarea>
             </label>
-
           </form>
         </div>
       </div>
