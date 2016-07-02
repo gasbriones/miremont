@@ -271,7 +271,9 @@ html, body {
   background: #fff;
   padding: 3.75em 0 6.25em !important; }
   .press .articles {
-    margin-bottom: 7.5em; }
+    margin-bottom: 6.25em; }
+    .press .articles .item {
+      margin-bottom: 2.5em; }
   .press .page-title {
     color: #B57E11;
     margin-bottom: 0.9375em; }

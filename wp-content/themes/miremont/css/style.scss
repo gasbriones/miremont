@@ -381,7 +381,10 @@ html, body {
   padding: (60em/16) 0 (100em/16) !important;
 
   .articles{
-    margin-bottom: (120em/16);
+    margin-bottom: (100em/16);
+    .item{
+      margin-bottom: (40em/16);
+    }
   }
   .page-title {
     color: #B57E11;
