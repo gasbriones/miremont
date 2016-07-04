@@ -2,8 +2,11 @@
 get_header();
 
 $page = $_GET['page'];
+//default page num
 $per_museum = 3;
 $per_articles = 4;
+$per_expos = 3;
+$per_doing = 2;
 
 
 if ($page != '') {
@@ -13,6 +16,12 @@ if ($page != '') {
         break;
         case 'prensa':
             $per_articles = $_GET['more'];
+        break;
+        case 'exposiciones':
+            $per_expos = $_GET['more'];
+        break;
+        case 'lo-que-estamos-haciendo':
+            $per_doing = $_GET['more'];
         break;
     }
 }
@@ -26,16 +35,22 @@ $museums = new WP_Query(array(
     'order' => 'ASC',
     'posts_per_page' => $per_museum
 ));
-$expo = new WP_Query('cat=3');
+
+$expo = new WP_Query(array(
+    'cat' => '3',
+    'order' => 'ASC',
+    'posts_per_page' => $per_expos
+));
 
 $team = new WP_Query(array(
     'cat' => '4',
-    'order' => 'ASC',
+    'order' => 'ASC'
 ));
 
 $doing = new WP_Query(array(
     'cat' => '5',
     'order' => 'ASC',
+    'posts_per_page' => $per_doing
 ));
 
 $articles = new WP_Query(array(
@@ -46,7 +61,7 @@ $articles = new WP_Query(array(
 
 $videos = new WP_Query(array(
     'cat' => '7',
-    'order' => 'ASC',
+    'order' => 'ASC'
 ));
 
 ?>
@@ -169,7 +184,14 @@ $videos = new WP_Query(array(
                                     <?php the_content(); ?>
                                 </div>
                             </div>
-                        <?php endwhile; endif; ?>
+                        <?php $count_expos++; endwhile; endif; ?>
+                </div>
+                <div class="col-12 grid-center">
+                    <div class="col-2 more">
+                        <a href="<?php echo site_url(); ?>/?page=exposiciones&more=<?php echo $count_expos + 3 ?>">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_black.png"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -222,12 +244,19 @@ $videos = new WP_Query(array(
                                 <div class="col-2">
                                     <h1 class="title col-8"><?php the_title(); ?></h1>
                                     <div class="page-text col-8">
-                                        <?php the_content(); ?>
+                                        <?php the_excerpt(); ?>
                                     </div>
                                 </div>
 
                             </div>
-                        <?php endwhile; endif; ?>
+                        <?php $count_doing++; endwhile; endif; ?>
+                </div>
+                <div class="col-12 grid-center">
+                    <div class="col-2 more">
+                        <a href="<?php echo site_url(); ?>/?page=lo-que-estamos-haciendo&more=<?php echo $count_doing + 2 ?>">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_black.png"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
