@@ -74,20 +74,22 @@ html, body {
   position: relative; }
   .gallery .controls {
     display: block; }
-    .gallery .controls span {
+    .gallery .controls a {
       width: 0.75em;
       height: 2em;
       position: absolute;
-      top: 1.875em;
+      top: 0;
       text-indent: -9999em;
-      z-index: 999;
-      cursor: pointer; }
-      .gallery .controls span.prev {
-        left: 0;
-        background: url("../images/arrow-prev.png") no-repeat; }
-      .gallery .controls span.next {
-        right: 0;
-        background: url("../images/arrow-next.png") no-repeat; }
+      z-index: 99;
+      cursor: pointer;
+      width: 50%;
+      height: 17.0625em; }
+      .gallery .controls a.prev {
+        left: 0.625em;
+        background: url("../images/arrow-prev.png") no-repeat center left; }
+      .gallery .controls a.next {
+        right: 0.625em;
+        background: url("../images/arrow-next.png") no-repeat center right; }
 
 .header {
   padding-top: 3.125em;
@@ -118,7 +120,7 @@ html, body {
   transition: all 0.2s ease-in-out;
   padding: 0.625em 0;
   background: #fff;
-  z-index: 99 !important;
+  z-index: 999 !important;
   box-shadow: 0px 5px 4px -5px #888888; }
 .is-sticky .logo img {
   height: 2.5em;
@@ -176,11 +178,9 @@ html, body {
       background: #fff; }
   .museum .gallery {
     margin-bottom: 1.875em; }
-    .museum .gallery carousel {
-      display: block;
-      padding-bottom: 0.9375em;
-      border-bottom: solid 0.1875em #E3E3E3; }
     .museum .gallery .page-text {
+      border-top: solid 0.1875em #E3E3E3;
+      margin-top: 1.25em;
       font-size: 1.25em;
       color: #7B7E75;
       text-align: justify;

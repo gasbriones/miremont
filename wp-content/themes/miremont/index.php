@@ -125,14 +125,13 @@ $videos = new WP_Query(array(
                     <?php if ($museums->have_posts()):
                         while ($museums->have_posts()):$museums->the_post(); ?>
                             <div class="col-4 gallery">
-                                <div class="photo hmedia carousel">
+                                <div class="carousel hmedia">
                                     <?php
                                     $images = get_field('galeria_de_fotos');
                                     if ($images) {
                                         foreach ($images as $image) {
                                             echo '<img src="' . $image["url"] . '"/>';
                                         }
-
                                     }
                                     ?>
                                 </div>
@@ -162,26 +161,28 @@ $videos = new WP_Query(array(
                 <div class="col-12 grid-spaceAround grid-middle ">
                     <?php if ($expo->have_posts()):
                         while ($expo->have_posts()):$expo->the_post(); ?>
-                            <div class="col-4 col-top grid-center gallery">
-                                <?php
-                                $images = get_field('galeria_de_fotos');
-                                $arrayImg = Array();
-                                if ($images) {
-                                    foreach ($images as $image) {
-                                        array_push($arrayImg, array('href' => $image['url'], 'title' => $image['caption']));
+                            <div class="col-4 col-top gallery">
+                                <div class="carousel hmedia">
+                                    <?php
+                                    $images = get_field('galeria_de_fotos');
+                                    if ($images) {
+                                        foreach ($images as $image) {
+                                            echo '<img src="' . $image["url"] . '"/>';
+                                        }
                                     }
-                                }
-                                $jsonImg = json_encode($arrayImg);
-                                ?>
-                                <a class="fancybox col-12" href="<?php echo $arrayImg[0]['href']; ?>"
-                                   data-images='<?php echo $jsonImg ?>'>
-                                    <img src="<?php echo $arrayImg[0]['href']; ?>"
-                                         alt="<?php echo $arrayImg[0]['alt']; ?>"/>
-                                </a>
-                                <h1 class="title col-8"><?php the_title(); ?></h1>
-                                <div class="page-text col-10">
-                                    <?php the_content(); ?>
+                                    ?>
                                 </div>
+                                <div class="controls">
+                                    <a class="prev" href="#">Prev</a>
+                                    <a class="next" href="#">Next</a>
+                                </div>
+                                <div class="grid-center">
+                                    <h1 class="title col-8"><?php the_title(); ?></h1>
+                                    <div class="page-text col-10">
+                                        <?php the_content(); ?>
+                                    </div>
+                                </div>
+
                             </div>
                         <?php $count_expos++; endwhile; endif; ?>
                 </div>
