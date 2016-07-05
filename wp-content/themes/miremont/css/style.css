@@ -56,6 +56,39 @@ html, body {
     bottom: 0;
     width: 100%; }
 
+.hmedia {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%; }
+  .hmedia img {
+    display: table-cell;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    vertical-align: middle; }
+
+.gallery {
+  position: relative; }
+  .gallery .controls {
+    display: block; }
+    .gallery .controls span {
+      width: 0.75em;
+      height: 2em;
+      position: absolute;
+      top: 1.875em;
+      text-indent: -9999em;
+      z-index: 999;
+      cursor: pointer; }
+      .gallery .controls span.prev {
+        left: 0;
+        background: url("../images/arrow-prev.png") no-repeat; }
+      .gallery .controls span.next {
+        right: 0;
+        background: url("../images/arrow-next.png") no-repeat; }
+
 .header {
   padding-top: 3.125em;
   background: #fff;
@@ -66,7 +99,7 @@ html, body {
     transition: all 0.2s ease-in-out; }
   .header .menu li {
     float: left;
-    margin-right: 8.5%; }
+    margin-right: 6.5%; }
     .header .menu li a {
       font-family: MarketDeco;
       font-size: 1.125em;
@@ -88,7 +121,8 @@ html, body {
   z-index: 99 !important;
   box-shadow: 0px 5px 4px -5px #888888; }
 .is-sticky .logo img {
-  height: 2.5em; }
+  height: 2.5em;
+  margin-left: 25%; }
 
 .main {
   margin-top: 1.5625em; }
@@ -96,7 +130,7 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: 4.6875em;
+  font-size: 4.0625em;
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 0.64286em;
@@ -112,17 +146,10 @@ html, body {
 
 .about {
   padding: 5.625em 0 !important; }
-  .about .slider-wrapper {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: block; }
-    .about .slider-wrapper .bx-wrapper {
-      position: absolute;
-      left: 0;
-      top: 0; }
-      .about .slider-wrapper .bx-wrapper img {
-        width: 100%; }
+  .about .page-image {
+    overflow: hidden; }
+    .about .page-image .hmedia {
+      margin-top: 10%; }
 
 .page-text {
   font-family: ITCKabelStd-Book;
@@ -149,7 +176,7 @@ html, body {
       background: #fff; }
   .museum .gallery {
     margin-bottom: 1.875em; }
-    .museum .gallery a {
+    .museum .gallery carousel {
       display: block;
       padding-bottom: 0.9375em;
       border-bottom: solid 0.1875em #E3E3E3; }

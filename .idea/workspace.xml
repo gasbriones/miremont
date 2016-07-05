@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a3869a-7101-4e92-9c8c-8921f6de5846" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/js/libs/jquery.cycle.lite.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" afterPath="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" />
     </list>
     <ignored path="miremont.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +44,7 @@
       <file leaf-file-name="wp-settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="521">
               <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding />
             </state>
@@ -49,48 +54,28 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="378">
+              <caret line="29" column="71" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-              <folding>
-                <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-                <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="386" column="5" selection-start-line="386" selection-start-column="5" selection-end-line="386" selection-end-column="5" />
+            <state relative-caret-position="265">
+              <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -99,7 +84,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="540">
               <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
@@ -109,8 +94,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +104,8 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="342">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -137,11 +122,11 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/multi-image-upload/miu_script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/miremont/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/js/init.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/miremont/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/miremont/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss" />
       </list>
     </option>
   </component>
@@ -184,10 +169,137 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miremont" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -200,6 +312,10 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/miremont/js/libs" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/miremont/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/themes/miremont/css" />
       <recent name="$PROJECT_DIR$/wp-content/themes/miremont/js/libs" />
@@ -263,53 +379,35 @@
       <workItem from="1467335075514" duration="9526000" />
       <workItem from="1467394188993" duration="2658000" />
       <workItem from="1467590749903" duration="2137000" />
+      <workItem from="1467681431728" duration="10591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82609000" />
+    <option name="totallyTimeSpent" value="93200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32697946" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32624632" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32697946" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -331,27 +429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -439,27 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -523,27 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,27 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,79 +732,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/js/init.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="378">
+          <caret line="29" column="71" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="521">
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="386" column="5" selection-start-line="386" selection-start-column="5" selection-end-line="386" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding>
-            <marker date="1467592287538" expanded="true" signature="1256:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1296:2052" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1323:2037" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1360:1477" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1547:2022" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="1588:2003" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2097:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2141:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2280:2336" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2504:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2670:2902" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2792:2875" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="2953:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3006:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3056:3147" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3688:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3726:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="3832:4114" ph="..." />
-            <marker date="1467592287538" expanded="true" signature="4023:4114" ph="..." />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/miremont/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

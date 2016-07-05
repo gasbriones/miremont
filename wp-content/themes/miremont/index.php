@@ -76,7 +76,7 @@ $videos = new WP_Query(array(
                 <ul class="menu col-11">
                     <li><a href="#acerca-de">Acerca de</a></li>
                     <li><a href="#museos">Museos</a></li>
-                    <li><a href="#exposiciones">Expos</a></li>
+                    <li><a href="#exposiciones">exposiciones</a></li>
                     <li><a href="#equipo">Equipo</a></li>
                     <li><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
                     <li><a href="#prensa">Prensa</a></li>
@@ -94,7 +94,7 @@ $videos = new WP_Query(array(
                     </figure>
                 <?php endwhile; endif; ?>
         </div>
-        <div id="acerca-de" class="col-11 grid-center about">
+        <div id="acerca-de" class="col-11 grid-spaceBetween about">
             <?php if ($about->have_posts()):
                 while ($about->have_posts()):$about->the_post(); ?>
                     <div class="col-6 page-content">
@@ -104,17 +104,16 @@ $videos = new WP_Query(array(
                         </div>
                     </div>
                     <div class="col-6 page-image">
-                        <div class="slider-wrapper">
-                            <ul class="bxslider">
-                                <?php
+                        <div class="photo hmedia slider">
+                            <?php
                                 $images = get_field('galeria_de_fotos');
                                 if ($images) {
                                     foreach ($images as $image) {
-                                        echo '<li><img src="' . $image["url"] . '"/></li>';
+                                        echo '<img src="' . $image["url"] . '"/>';
                                     }
+
                                 }
-                                ?>
-                            </ul>
+                            ?>
                         </div>
                     </div>
                 <?php endwhile; endif; ?>
@@ -126,21 +125,21 @@ $videos = new WP_Query(array(
                     <?php if ($museums->have_posts()):
                         while ($museums->have_posts()):$museums->the_post(); ?>
                             <div class="col-4 gallery">
-                                <?php
-                                $images = get_field('galeria_de_fotos');
-                                $arrayImg = Array();
-                                if ($images) {
-                                    foreach ($images as $image) {
-                                        array_push($arrayImg, array('href' => $image['url'], 'title' => $image['caption']));
+                                <div class="photo hmedia carousel">
+                                    <?php
+                                    $images = get_field('galeria_de_fotos');
+                                    if ($images) {
+                                        foreach ($images as $image) {
+                                            echo '<img src="' . $image["url"] . '"/>';
+                                        }
+
                                     }
-                                }
-                                $jsonImg = json_encode($arrayImg);
-                                ?>
-                                <a class="fancybox" href="<?php echo $arrayImg[0]['href']; ?>"
-                                   data-images='<?php echo $jsonImg ?>'>
-                                    <img src="<?php echo $arrayImg[0]['href']; ?>"
-                                         alt="<?php echo $arrayImg[0]['alt']; ?>"/>
-                                </a>
+                                    ?>
+                                </div>
+                                <div class="controls">
+                                    <a class="prev" href="#">Prev</a>
+                                    <a class="next" href="#">Next</a>
+                                </div>
                                 <div class="page-text">
                                     <?php the_content(); ?>
                                 </div>
@@ -209,7 +208,7 @@ $videos = new WP_Query(array(
                                     <div class="data">
                                         <h1 class="name"><?php the_title(); ?></h1>
                                         <h2 class="specialist"><?php the_content(); ?></h2>
-                                        <a class="linkedin" href="<?php echo the_field('linkedin') ?>" target="_blank">Perfil</a>
+                                        <a class="linkedin" href="<?php echo the_field('linkedin') ?>" target="_blank">Ver más</a>
                                     </div>
                                 </div>
 

@@ -85,6 +85,46 @@ html, body {
   }
 }
 
+.hmedia{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%;
+  img{
+    display: table-cell;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+  }
+
+}
+
+.gallery{
+  position: relative;
+  .controls{
+    display: block;
+    span{
+      width: (12em/16);
+      height: (32em/16);
+      position: absolute;
+      top:(30em/16);
+      text-indent: -9999em;
+      z-index: 999;
+      cursor: pointer;
+      &.prev{
+        left: 0;
+        background: url("../images/arrow-prev.png") no-repeat;
+      }
+      &.next{
+        right: 0;
+        background: url("../images/arrow-next.png") no-repeat;
+      }
+    }
+  }
+}
 
 
 
@@ -104,7 +144,7 @@ html, body {
   .menu {
     li {
       float: left;
-      margin-right: 8.5%;
+      margin-right: 6.5%;
       a {
         font-family: MarketDeco;
         font-size: (18em/16);
@@ -140,6 +180,7 @@ html, body {
   .logo{
     img{
       height: (40em/16);
+      margin-left: (25%);
     }
   }
 }
@@ -151,7 +192,7 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: (75em/16);
+  font-size: (65em/16);
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: (45em/70);
@@ -170,18 +211,10 @@ html, body {
 
 .about {
   padding: (90em/16) 0 !important;
-  .slider-wrapper{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: block;
-    .bx-wrapper{
-      position: absolute;
-      left:0;
-      top: 0;
-      img{
-        width: 100%;
-      }
+  .page-image{
+    overflow: hidden;
+    .hmedia{
+      margin-top: 10%;
     }
   }
 }
@@ -216,7 +249,7 @@ html, body {
 
   .gallery {
     margin-bottom: (30em/16);
-    a {
+    carousel {
       display: block;
       padding-bottom: (15em/16);
       border-bottom: solid (3em/16) #E3E3E3;
