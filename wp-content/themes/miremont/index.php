@@ -124,7 +124,7 @@ $videos = new WP_Query(array(
                 <div class="col-12 grid-spaceBetween">
                     <?php if ($museums->have_posts()):
                         while ($museums->have_posts()):$museums->the_post(); ?>
-                            <div class="col-4 gallery">
+                            <div class="col-4 gallery ">
                                 <div class="carousel hmedia">
                                     <?php
                                     $images = get_field('galeria_de_fotos');
@@ -176,10 +176,13 @@ $videos = new WP_Query(array(
                                     <a class="prev" href="#">Prev</a>
                                     <a class="next" href="#">Next</a>
                                 </div>
-                                <div class="grid-center">
+                                <div class="grid-center learn-more">
                                     <h1 class="title col-8"><?php the_title(); ?></h1>
-                                    <div class="page-text col-10">
-                                        <?php the_content(); ?>
+                                    <div class="page-text col-10 more-btn">
+                                      <?php the_field('resumen'); ?>
+                                    </div>
+                                    <div class="col-10 more-text">
+                                      <?php the_content(); ?>
                                     </div>
                                 </div>
 
@@ -241,10 +244,13 @@ $videos = new WP_Query(array(
                                     <img src="<?php echo $arrayImg[0]['href']; ?>"
                                          alt="<?php echo $arrayImg[0]['alt']; ?>"/>
                                 </a>
-                                <div class="col-2">
+                                <div class="col-2 learn-more">
                                     <h1 class="title col-8"><?php the_title(); ?></h1>
-                                    <div class="page-text col-8">
-                                        <?php the_excerpt(); ?>
+                                    <div class="page-text col-8 more-btn">
+                                        <?php the_field('resumen'); ?>
+                                    </div>
+                                    <div class="col-10 more-text">
+                                      <?php the_content(); ?>
                                     </div>
                                 </div>
 
@@ -313,7 +319,7 @@ $videos = new WP_Query(array(
                     </div>
                     <div class="col-10 grid info">
                         <div class="col-6">Email:</div>
-                        <div class="col-6 text-right"><a href="mailto:gm@miramont.com.ar">gm@miramont.com.ar</a></div>
+                        <div class="col-6 text-right"><a href="mailto:gm@miramont.com.ar">gm@miremont.com.ar</a></div>
                     </div>
                     <div class="col-10 grid info">
                         <div class="col-6">Dirección:</div>

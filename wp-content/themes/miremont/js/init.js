@@ -29,6 +29,12 @@ $(document).ready(function () {
         });
     })
 
+    $('.learn-more').each(function () {
+        var self= $(this);
+        self.find('.more-btn').click(function () {
+            self.find('.more-text').slideToggle("slow");
+        })
 
+    })
 
 });

@@ -71,6 +71,15 @@ html, body {
   text-decoration: none;
 }
 
+.learn-more{
+  position: relative;
+
+  .more-text{
+    display: none;
+    color: #7E7E7D;
+  }
+}
+
 .aspect{
   padding-bottom: 100%;
   position: relative;
@@ -213,6 +222,9 @@ html, body {
 
 .about {
   padding: (90em/16) 0 !important;
+  .page-title{
+    padding-right: 8%;
+  }
   .page-image{
     overflow: hidden;
     .hmedia{
@@ -297,10 +309,23 @@ html, body {
       font-size: (20em/16);
       color: #7B7E75;
       padding: 0;
+      cursor: pointer;
       p{
         margin: 0;
       }
     }
+
+    .more-text{
+      font-family: ITCKabelStd-Book;
+      font-size: (20em/16);
+      color: #7B7E75;
+      padding: 0;
+      cursor: pointer;
+      p{
+        margin: 0;
+      }
+    }
+
   }
 }
 
@@ -393,6 +418,17 @@ html, body {
       }
     }
     .page-text {
+      font-size: (20em/16);
+      color: #7B7E75;
+      text-align: justify;
+      padding: 0;
+      cursor: pointer;
+      p{
+        margin: 0;
+      }
+    }
+    .more-text{
+      font-family: ITCKabelStd-Book;
       font-size: (20em/16);
       color: #7B7E75;
       text-align: justify;
