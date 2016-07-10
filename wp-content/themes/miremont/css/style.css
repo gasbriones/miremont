@@ -76,24 +76,25 @@ html, body {
     top: 0;
     vertical-align: middle; }
 
-.gallery {
+.gallery .carousel-container {
   position: relative; }
-  .gallery .controls {
+  .gallery .carousel-container .controls {
     display: block; }
-    .gallery .controls a {
+    .gallery .carousel-container .controls a {
       width: 0.75em;
       height: 2em;
       position: absolute;
-      top: 0;
+      top: 50%;
+      transform: translateY(-50%);
       text-indent: -9999em;
       z-index: 99;
       cursor: pointer;
       width: 50%;
       height: 17.0625em; }
-      .gallery .controls a.prev {
+      .gallery .carousel-container .controls a.prev {
         left: 0.625em;
         background: url("../images/arrow-prev.png") no-repeat center left; }
-      .gallery .controls a.next {
+      .gallery .carousel-container .controls a.next {
         right: 0.625em;
         background: url("../images/arrow-next.png") no-repeat center right; }
 
@@ -224,16 +225,12 @@ html, body {
       color: #7B7E75;
       padding: 0;
       cursor: pointer; }
-      .expo .gallery .page-text p {
-        margin: 0; }
     .expo .gallery .more-text {
       font-family: ITCKabelStd-Book;
       font-size: 1.25em;
       color: #7B7E75;
       padding: 0;
       cursor: pointer; }
-      .expo .gallery .more-text p {
-        margin: 0; }
 
 .team {
   background: #CDC6B4;
@@ -420,5 +417,13 @@ html, body {
 
 .more {
   text-align: center; }
+
+.team-member .name {
+  font-family: ITCKabelStd-Book;
+  font-size: 2.25em;
+  font-weight: bold; }
+.team-member .specialist p {
+  margin: 0.3125em;
+  font-size: 1.75em; }
 
 /*# sourceMappingURL=style.css.map */

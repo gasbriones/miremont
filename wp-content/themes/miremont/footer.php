@@ -10,7 +10,7 @@
             </div>
             <div class="col-10 grid info">
                 <div class="col-5">Email:</div>
-                <div class="col-7 text-right"><a href="mailto:gm@miramont.com.ar">gm@miramont.com.ar</a></div>
+                <div class="col-7 text-right"><a href="mailto:gm@miremont.com.ar">gm@miremont.com.ar</a></div>
             </div>
             <div class="col-10 grid info">
                 <div class="col-5">Dirección:</div>

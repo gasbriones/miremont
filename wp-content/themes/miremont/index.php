@@ -13,16 +13,16 @@ if ($page != '') {
     switch ($page) {
         case 'museos':
             $per_museum = $_GET['more'];
-        break;
+            break;
         case 'prensa':
             $per_articles = $_GET['more'];
-        break;
+            break;
         case 'exposiciones':
             $per_expos = $_GET['more'];
-        break;
+            break;
         case 'lo-que-estamos-haciendo':
             $per_doing = $_GET['more'];
-        break;
+            break;
     }
 }
 
@@ -106,13 +106,13 @@ $videos = new WP_Query(array(
                     <div class="col-6 page-image">
                         <div class="photo hmedia slider">
                             <?php
-                                $images = get_field('galeria_de_fotos');
-                                if ($images) {
-                                    foreach ($images as $image) {
-                                        echo '<img src="' . $image["url"] . '"/>';
-                                    }
-
+                            $images = get_field('galeria_de_fotos');
+                            if ($images) {
+                                foreach ($images as $image) {
+                                    echo '<img src="' . $image["url"] . '"/>';
                                 }
+
+                            }
                             ?>
                         </div>
                     </div>
@@ -124,22 +124,26 @@ $videos = new WP_Query(array(
                 <div class="col-12 grid-spaceBetween">
                     <?php if ($museums->have_posts()):
                         while ($museums->have_posts()):$museums->the_post(); ?>
-                            <div class="col-4 gallery ">
-                                <div class="carousel hmedia">
-                                    <?php
-                                    $images = get_field('galeria_de_fotos');
-                                    if ($images) {
-                                        foreach ($images as $image) {
-                                            echo '<img src="' . $image["url"] . '"/>';
+                            <div class="col-4 col-top grid gallery">
+                                <div class="col-12 carousel-container">
+                                    <div class="carousel hmedia">
+                                        <?php
+                                        $images = get_field('galeria_de_fotos');
+                                        if ($images) {
+                                            foreach ($images as $image) {
+                                                echo '<img src="' . $image["url"] . '"/>';
+                                            }
                                         }
-                                    }
-                                    ?>
+                                        ?>
+                                    </div>
+                                    <?php if ($images): ?>
+                                        <div class="controls">
+                                            <a class="prev" href="#">Prev</a>
+                                            <a class="next" href="#">Next</a>
+                                        </div>
+                                    <?php endif; ?>
                                 </div>
-                                <div class="controls">
-                                    <a class="prev" href="#">Prev</a>
-                                    <a class="next" href="#">Next</a>
-                                </div>
-                                <div class="page-text">
+                                <div class="col-12 page-text">
                                     <?php the_content(); ?>
                                 </div>
                             </div>
@@ -162,32 +166,35 @@ $videos = new WP_Query(array(
                     <?php if ($expo->have_posts()):
                         while ($expo->have_posts()):$expo->the_post(); ?>
                             <div class="col-4 col-top gallery">
-                                <div class="carousel hmedia">
-                                    <?php
-                                    $images = get_field('galeria_de_fotos');
-                                    if ($images) {
-                                        foreach ($images as $image) {
-                                            echo '<img src="' . $image["url"] . '"/>';
+                                <div class="col-12 col-top carousel-container">
+                                    <div class="carousel hmedia">
+                                        <?php
+                                        $images = get_field('galeria_de_fotos');
+                                        if ($images) {
+                                            foreach ($images as $image) {
+                                                echo '<img src="' . $image["url"] . '"/>';
+                                            }
                                         }
-                                    }
-                                    ?>
+                                        ?>
+                                    </div>
+                                    <?php if ($images): ?>
+                                        <div class="controls">
+                                            <a class="prev" href="#">Prev</a>
+                                            <a class="next" href="#">Next</a>
+                                        </div>
+                                    <?php endif; ?>
                                 </div>
-                                <div class="controls">
-                                    <a class="prev" href="#">Prev</a>
-                                    <a class="next" href="#">Next</a>
-                                </div>
-                                <div class="grid-center learn-more">
+                                <div class="col-12 grid-center learn-more">
                                     <h1 class="title col-8"><?php the_title(); ?></h1>
                                     <div class="page-text col-10 more-btn">
-                                      <?php the_field('resumen'); ?>
+                                        <?php the_field('resumen'); ?>
                                     </div>
                                     <div class="col-10 more-text">
-                                      <?php the_content(); ?>
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
-
                             </div>
-                        <?php $count_expos++; endwhile; endif; ?>
+                            <?php $count_expos++; endwhile; endif; ?>
                 </div>
                 <div class="col-12 grid-center">
                     <div class="col-2 more">
@@ -212,7 +219,9 @@ $videos = new WP_Query(array(
                                     <div class="data">
                                         <h1 class="name"><?php the_title(); ?></h1>
                                         <h2 class="specialist"><?php the_content(); ?></h2>
-                                        <a class="linkedin" href="<?php echo the_field('linkedin') ?>" target="_blank">Ver más</a>
+                                        <a class="linkedin"
+                                           href="<?php echo site_url(); ?>/equipo/?cv=<?php echo $post->ID; ?>"
+                                           target="_blank">Ver más</a>
                                     </div>
                                 </div>
 
@@ -228,34 +237,36 @@ $videos = new WP_Query(array(
                     <?php if ($doing->have_posts()):
                         while ($doing->have_posts()):$doing->the_post(); ?>
                             <div class="col-12 grid-spaceBetween gallery">
-                                <?php
-                                $images = get_field('galeria_de_fotos');
-                                $arrayImg = Array();
-                                if ($images) {
-                                    foreach ($images as $image) {
-                                        array_push($arrayImg, array('href' => $image['url'], 'title' => $image['caption']));
-                                    }
-                                }
-                                $jsonImg = json_encode($arrayImg);
-                                ?>
-
-                                <a class="fancybox col-9" href="<?php echo $arrayImg[0]['href']; ?>"
-                                   data-images='<?php echo $jsonImg ?>'>
-                                    <img src="<?php echo $arrayImg[0]['href']; ?>"
-                                         alt="<?php echo $arrayImg[0]['alt']; ?>"/>
-                                </a>
+                                <div class="col-9 col-top carousel-container">
+                                        <?php
+                                        $images = get_field('galeria_de_fotos');
+                                        if ($images) {
+                                            echo '<div class="carousel hmedia">';
+                                            foreach ($images as $image) {
+                                                echo '<img src="' . $image["url"] . '"/>';
+                                            }
+                                            echo ' </div>';
+                                        }
+                                        ?>
+                                    <?php if ($images): ?>
+                                        <div class="controls">
+                                            <a class="prev" href="#">Prev</a>
+                                            <a class="next" href="#">Next</a>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
                                 <div class="col-2 learn-more">
                                     <h1 class="title col-8"><?php the_title(); ?></h1>
                                     <div class="page-text col-8 more-btn">
                                         <?php the_field('resumen'); ?>
                                     </div>
                                     <div class="col-10 more-text">
-                                      <?php the_content(); ?>
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
 
                             </div>
-                        <?php $count_doing++; endwhile; endif; ?>
+                            <?php $count_doing++; endwhile; endif; ?>
                 </div>
                 <div class="col-12 grid-center">
                     <div class="col-2 more">
@@ -319,7 +330,7 @@ $videos = new WP_Query(array(
                     </div>
                     <div class="col-10 grid info">
                         <div class="col-6">Email:</div>
-                        <div class="col-6 text-right"><a href="mailto:gm@miramont.com.ar">gm@miremont.com.ar</a></div>
+                        <div class="col-6 text-right"><a href="mailto:gm@miremont.com.ar">gm@miremont.com.ar</a></div>
                     </div>
                     <div class="col-10 grid info">
                         <div class="col-6">Dirección:</div>

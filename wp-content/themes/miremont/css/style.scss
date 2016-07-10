@@ -112,33 +112,34 @@ html, body {
 }
 
 .gallery{
-  position: relative;
-  .controls{
-    display: block;
-    a{
-      width: (12em/16);
-      height: (32em/16);
-      position: absolute;
-      top:0;
-      text-indent: -9999em;
-      z-index: 99;
-      cursor: pointer;
-      width: 50%;
-      height: (273em/16);
-      &.prev{
-        left: (10em/16);
-        background: url("../images/arrow-prev.png") no-repeat center left;
-      }
-      &.next{
-        right: (10em/16);
-        background: url("../images/arrow-next.png") no-repeat center right;
+  .carousel-container{
+    position: relative;
+    .controls{
+      display: block;
+      a{
+        width: (12em/16);
+        height: (32em/16);
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        text-indent: -9999em;
+        z-index: 99;
+        cursor: pointer;
+        width: 50%;
+        height: (273em/16);
+        &.prev{
+          left: (10em/16);
+          background: url("../images/arrow-prev.png") no-repeat center left;
+        }
+        &.next{
+          right: (10em/16);
+          background: url("../images/arrow-next.png") no-repeat center right;
+        }
       }
     }
   }
+
 }
-
-
-
 
 .header {
   padding-top: (50em/16);
@@ -310,9 +311,6 @@ html, body {
       color: #7B7E75;
       padding: 0;
       cursor: pointer;
-      p{
-        margin: 0;
-      }
     }
 
     .more-text{
@@ -321,9 +319,6 @@ html, body {
       color: #7B7E75;
       padding: 0;
       cursor: pointer;
-      p{
-        margin: 0;
-      }
     }
 
   }
@@ -583,4 +578,18 @@ html, body {
 }
 .more{
   text-align: center;
+}
+
+.team-member{
+  .name{
+    font-family: ITCKabelStd-Book;
+    font-size: (36em/16);
+    font-weight: bold;
+  }
+  .specialist{
+    p{
+      margin: (5em/16);
+      font-size: (28em/16);
+    }
+  }
 }
