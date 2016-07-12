@@ -366,7 +366,9 @@ html, body {
           display: table;
           margin: (20em/24) auto 0;
           text-decoration: none;
-          padding: (5em/24)(15em/24) ;
+          padding: (5em/24)(15em/24);
+          font-style: italic;
+          text-transform: lowercase;
         }
       }
     }
@@ -580,6 +582,9 @@ html, body {
     font-family: ITCKabelStd-Book;
     font-size: (36em/16);
     font-weight: bold;
+  }
+  .photo{
+    width: 100%;
   }
   .specialist{
     p{

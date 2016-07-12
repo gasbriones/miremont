@@ -18,10 +18,15 @@ $query = new WP_Query($args);
     <div class="col-11 grid-center team-member">
         <?php if ($query->have_posts()):
             while ($query->have_posts()):$query->the_post(); ?>
-                <div class="col-4">
-                    <figure>
-                        <img src="<?php echo the_field('image') ?>"/>
-                    </figure>
+                <div class="col-4 grid">
+                    <div class="col-8">
+                        <figure>
+                            <?php
+                            $img = get_field('image');
+                            ?>
+                            <img class="photo" src="<?php echo $img['sizes']['thumbnail'] ?>"/>
+                        </figure>
+                    </div>
                 </div>
                 <div class="col-8">
                     <h1 class="name"><?php the_title(); ?></h1>

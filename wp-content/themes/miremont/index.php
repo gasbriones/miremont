@@ -32,7 +32,6 @@ $about = new WP_Query('page_id=2');
 
 $museums = new WP_Query(array(
     'cat' => '2',
-    'orderby' => 'tag',
     'order' => 'ASC',
     'posts_per_page' => $per_museum
 ));
@@ -216,7 +215,10 @@ $videos = new WP_Query(array(
                             <div class="col-3 grid-center content">
                                 <div class="member col-11">
                                     <figure class="photo aspect">
-                                        <img src="<?php echo the_field('image') ?>"/>
+                                        <?php
+                                            $img = get_field('image');
+                                        ?>
+                                        <img src="<?php echo $img['sizes']['medium'] ?>"/>
                                     </figure>
                                     <div class="data">
                                         <h1 class="name"><?php the_title(); ?></h1>

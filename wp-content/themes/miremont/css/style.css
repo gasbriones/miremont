@@ -265,7 +265,9 @@ html, body {
           display: table;
           margin: 0.83333em auto 0;
           text-decoration: none;
-          padding: 0.20833em 0.625em; }
+          padding: 0.20833em 0.625em;
+          font-style: italic;
+          text-transform: lowercase; }
 
 .doing {
   background: #EBEBEB;
@@ -417,6 +419,8 @@ html, body {
   font-family: ITCKabelStd-Book;
   font-size: 2.25em;
   font-weight: bold; }
+.team-member .photo {
+  width: 100%; }
 .team-member .specialist p {
   margin: 0.3125em;
   font-size: 1.75em; }
