@@ -112,33 +112,34 @@ html, body {
 }
 
 .gallery{
-  position: relative;
-  .controls{
-    display: block;
-    a{
-      width: (12em/16);
-      height: (32em/16);
-      position: absolute;
-      top:0;
-      text-indent: -9999em;
-      z-index: 99;
-      cursor: pointer;
-      width: 50%;
-      height: (273em/16);
-      &.prev{
-        left: (10em/16);
-        background: url("../images/arrow-prev.png") no-repeat center left;
-      }
-      &.next{
-        right: (10em/16);
-        background: url("../images/arrow-next.png") no-repeat center right;
+  .carousel-container{
+    position: relative;
+    .controls{
+      display: block;
+      a{
+        width: (12em/16);
+        height: (32em/16);
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        text-indent: -9999em;
+        z-index: 99;
+        cursor: pointer;
+        width: 50%;
+        height: (273em/16);
+        &.prev{
+          left: (10em/16);
+          background: url("../images/arrow-prev.png") no-repeat center left;
+        }
+        &.next{
+          right: (10em/16);
+          background: url("../images/arrow-next.png") no-repeat center right;
+        }
       }
     }
   }
+
 }
-
-
-
 
 .header {
   padding-top: (50em/16);
@@ -203,21 +204,12 @@ html, body {
 .page-title {
   color: #B57E11;
   font-family: BelleroseLight;
-  font-size: (65em/16);
+  font-size: (55em/16);
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: (45em/70);
   position: relative;
   display: table;
-
-  &:before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: (3em/70);
-    bottom: (-27em/70);
-    left: 0;
-  }
 }
 
 .about {
@@ -239,6 +231,11 @@ html, body {
   font-size: (24em/16);
   box-sizing: border-box;
   padding-right: 8%;
+
+  .title{
+    margin-top: (20em/24);
+    font-weight: bold;
+  }
 }
 
 .subtitle{
@@ -310,9 +307,6 @@ html, body {
       color: #7B7E75;
       padding: 0;
       cursor: pointer;
-      p{
-        margin: 0;
-      }
     }
 
     .more-text{
@@ -321,9 +315,6 @@ html, body {
       color: #7B7E75;
       padding: 0;
       cursor: pointer;
-      p{
-        margin: 0;
-      }
     }
 
   }
@@ -333,7 +324,6 @@ html, body {
   background: #CDC6B4;
   padding: (50em/16) 0 (60em/16) !important;
   .page-title {
-    color: #fff;
     margin-bottom: (20em/16);
     &:before {
       background: #fff;
@@ -583,4 +573,18 @@ html, body {
 }
 .more{
   text-align: center;
+}
+
+.team-member{
+  .name{
+    font-family: ITCKabelStd-Book;
+    font-size: (36em/16);
+    font-weight: bold;
+  }
+  .specialist{
+    p{
+      margin: (5em/16);
+      font-size: (28em/16);
+    }
+  }
 }

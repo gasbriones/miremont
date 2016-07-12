@@ -31,8 +31,26 @@ $(document).ready(function () {
 
     $('.learn-more').each(function () {
         var self= $(this);
-        self.find('.more-btn').click(function () {
+        self.click(function () {
             self.find('.more-text').slideToggle("slow");
         })
     })
+
+    $('.linkedin').on('click', function(){
+        var self= $(this);
+
+        $.fancybox.open({
+            width: '75%',
+            height: '95%',
+            autoSize: false,
+            href: self.attr('href'),
+            type: 'ajax',
+            helpers: {
+                overlay: {
+                    locked: false
+                }
+            }
+        });
+        return false;
+    });
 });
