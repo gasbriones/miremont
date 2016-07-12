@@ -32,6 +32,7 @@ $about = new WP_Query('page_id=2');
 
 $museums = new WP_Query(array(
     'cat' => '2',
+    'orderby' => 'tag',
     'order' => 'ASC',
     'posts_per_page' => $per_museum
 ));

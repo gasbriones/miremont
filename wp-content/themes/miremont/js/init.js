@@ -34,7 +34,5 @@ $(document).ready(function () {
         self.find('.more-btn').click(function () {
             self.find('.more-text').slideToggle("slow");
         })
-
     })
-
 });
