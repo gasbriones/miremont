@@ -144,6 +144,7 @@ $videos = new WP_Query(array(
                                     <?php endif; ?>
                                 </div>
                                 <div class="col-12 page-text">
+                                    <h1 class="title"><?php the_title(); ?></h1>
                                     <?php the_content(); ?>
                                 </div>
                             </div>
