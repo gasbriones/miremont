@@ -261,13 +261,23 @@ html, body {
   .gallery {
     margin-bottom: (30em/16);
 
+    .title{
+      color: #B57E11;
+      font-family: ITCKabelStd-Book;
+      text-transform: uppercase;
+      font-size: (22em/16);
+      margin-top: (15em/16);
+      position: relative;
+      font-weight: normal;
+    }
+
     .page-text {
       border-top: solid (3em/16) #E3E3E3;
       margin-top: (20em/16);
       font-size: (20em/16);
       color: #7B7E75;
-      text-align: justify;
       padding: 0;
+      font-family: ITCKabelStd-Book;
     }
   }
 }
@@ -340,35 +350,31 @@ html, body {
         width: 100%;
       }
       .data{
-        position: absolute;
         background: #CDC6B4;
-        width: 80%;
-        left: 10%;
-        bottom: -27%;
         text-align: center;
         padding-top: (15em/16);
         .name{
-          color: #000000;
-          font-size: (24em/16);
+          color: #1D1D1B;
+          font-size: (30em/16);
+          text-align: center;
         }
         .specialist{
           p{
             margin: 0;
-            color: #ffffff;
-            font-size: (22em/16);
+            color: #605D5D;
+            font-size: (26em/16);
           }
         }
         .linkedin{
-          display: block;
-          color: #ffffff;
-          font-size: (24em/16);
-          background:#717171;
-          display: table;
-          margin: (20em/24) auto 0;
+          color: #545451;
+          font-size: (20em/16);
           text-decoration: none;
-          padding: (5em/24)(15em/24);
           font-style: italic;
           text-transform: lowercase;
+          text-align: center;
+          &:hover{
+            text-decoration: underline;
+          }
         }
       }
     }

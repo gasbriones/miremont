@@ -183,13 +183,21 @@ html, body {
       background: #fff; }
   .museum .gallery {
     margin-bottom: 1.875em; }
+    .museum .gallery .title {
+      color: #B57E11;
+      font-family: ITCKabelStd-Book;
+      text-transform: uppercase;
+      font-size: 1.375em;
+      margin-top: 0.9375em;
+      position: relative;
+      font-weight: normal; }
     .museum .gallery .page-text {
       border-top: solid 0.1875em #E3E3E3;
       margin-top: 1.25em;
       font-size: 1.25em;
       color: #7B7E75;
-      text-align: justify;
-      padding: 0; }
+      padding: 0;
+      font-family: ITCKabelStd-Book; }
 
 .expo {
   background: #ffffff;
@@ -243,31 +251,26 @@ html, body {
       .team .content .member .photo {
         width: 100%; }
       .team .content .member .data {
-        position: absolute;
         background: #CDC6B4;
-        width: 80%;
-        left: 10%;
-        bottom: -27%;
         text-align: center;
         padding-top: 0.9375em; }
         .team .content .member .data .name {
-          color: #000000;
-          font-size: 1.5em; }
+          color: #1D1D1B;
+          font-size: 1.875em;
+          text-align: center; }
         .team .content .member .data .specialist p {
           margin: 0;
-          color: #ffffff;
-          font-size: 1.375em; }
+          color: #605D5D;
+          font-size: 1.625em; }
         .team .content .member .data .linkedin {
-          display: block;
-          color: #ffffff;
-          font-size: 1.5em;
-          background: #717171;
-          display: table;
-          margin: 0.83333em auto 0;
+          color: #545451;
+          font-size: 1.25em;
           text-decoration: none;
-          padding: 0.20833em 0.625em;
           font-style: italic;
-          text-transform: lowercase; }
+          text-transform: lowercase;
+          text-align: center; }
+          .team .content .member .data .linkedin:hover {
+            text-decoration: underline; }
 
 .doing {
   background: #EBEBEB;

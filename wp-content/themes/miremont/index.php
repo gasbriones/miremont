@@ -349,7 +349,7 @@ $videos = new WP_Query(array(
                         <div class="col-6 text-right">
                             <ul class="social-icons">
                                 <li><a href="#" class="yt"></a></li>
-                                <li><a href="#" class="fb"></a></li>
+                                <li><a href="https://www.facebook.com/MiremontBazarOK/" class="fb" target="_blank"></a></li>
                                 <li><a href="#" class="inst"></a></li>
                             </ul>
                         </div>
