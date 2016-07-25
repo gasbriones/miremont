@@ -156,7 +156,7 @@ html, body {
   .menu {
     li {
       float: left;
-      margin-right: 6.5%;
+      margin-right: 4.5%;
       a {
         font-family: MarketDeco;
         font-size: (18em/16);
@@ -342,7 +342,7 @@ html, body {
 
   .content {
     font-family: ITCKabelStd-Book;
-    margin-bottom: (125em/16);
+    margin-bottom: (50em/16);
 
     .member{
       position: relative;
@@ -355,19 +355,21 @@ html, body {
         padding-top: (15em/16);
         .name{
           color: #1D1D1B;
-          font-size: (30em/16);
+          font-size: (26em/16);
           text-align: center;
         }
         .specialist{
           p{
             margin: 0;
             color: #605D5D;
-            font-size: (26em/16);
+            font-size: (20em/16);
           }
         }
         .linkedin{
           color: #545451;
-          font-size: (20em/16);
+          font-size: (18em/16);
+          margin-top: (5em/18);
+          display: block;
           text-decoration: none;
           font-style: italic;
           text-transform: lowercase;

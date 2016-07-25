@@ -80,6 +80,7 @@ $videos = new WP_Query(array(
                     <li><a href="#equipo">Equipo</a></li>
                     <li><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
                     <li><a href="#prensa">Prensa</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -327,7 +328,7 @@ $videos = new WP_Query(array(
         <div id="contacto" class="col-12 grid-center contact">
             <div class="col-11 grid">
                 <div class="col-6 grid">
-                    <h1 class="col-12 title">Contactános</h1>
+                    <h1 class="col-12 title">Contáctanos</h1>
                     <div class="col-10 grid info">
                         <div class="col-6">Teléfono:</div>
                         <div class="col-6 text-right">+ 54 11 15 31 21 5667</div>
@@ -349,7 +350,6 @@ $videos = new WP_Query(array(
                         <div class="col-6 text-right">
                             <ul class="social-icons">
                                 <li><a href="#" class="yt"></a></li>
-                                <li><a href="https://www.facebook.com/MiremontBazarOK/" class="fb" target="_blank"></a></li>
                                 <li><a href="#" class="inst"></a></li>
                             </ul>
                         </div>

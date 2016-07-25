@@ -108,7 +108,7 @@ html, body {
     transition: all 0.2s ease-in-out; }
   .header .menu li {
     float: left;
-    margin-right: 6.5%; }
+    margin-right: 4.5%; }
     .header .menu li a {
       font-family: MarketDeco;
       font-size: 1.125em;
@@ -245,7 +245,7 @@ html, body {
       background: #fff; }
   .team .content {
     font-family: ITCKabelStd-Book;
-    margin-bottom: 7.8125em; }
+    margin-bottom: 3.125em; }
     .team .content .member {
       position: relative; }
       .team .content .member .photo {
@@ -256,15 +256,17 @@ html, body {
         padding-top: 0.9375em; }
         .team .content .member .data .name {
           color: #1D1D1B;
-          font-size: 1.875em;
+          font-size: 1.625em;
           text-align: center; }
         .team .content .member .data .specialist p {
           margin: 0;
           color: #605D5D;
-          font-size: 1.625em; }
+          font-size: 1.25em; }
         .team .content .member .data .linkedin {
           color: #545451;
-          font-size: 1.25em;
+          font-size: 1.125em;
+          margin-top: 0.27778em;
+          display: block;
           text-decoration: none;
           font-style: italic;
           text-transform: lowercase;
