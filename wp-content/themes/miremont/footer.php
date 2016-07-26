@@ -4,19 +4,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo-miremont-white.png">
         </div>
         <div class="col-4">
-            <div class="col-10 grid info">
-                <div class="col-5">Teléfono:</div>
-                <div class="col-7 text-right">+ 54 11 15 31 21 5667</div>
-            </div>
-            <div class="col-10 grid info">
-                <div class="col-5">Email:</div>
-                <div class="col-7 text-right"><a href="mailto:gm@miremont.com.ar">gm@miremont.com.ar</a></div>
-            </div>
-            <div class="col-10 grid info">
-                <div class="col-5">Dirección:</div>
-                <div class="col-7 text-right">Enrique Martinez 210, 2do. B</br>
-                    C.A.B.A, Argentina</div>
-            </div>
+            
         </div>
     </div>
     <?php wp_footer(); ?>
