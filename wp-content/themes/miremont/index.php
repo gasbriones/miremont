@@ -164,7 +164,7 @@ $videos = new WP_Query(array(
         <div id="exposiciones" class="col-12 grid-center expo">
             <div class="col-11 grid">
                 <h1 class="page-title">Exposiciones</h1>
-                <div class="col-12 grid-spaceAround grid-middle ">
+                <div class="col-12 grid-spaceAround grid-middle">
                     <?php if ($expo->have_posts()):
                         while ($expo->have_posts()):$expo->the_post(); ?>
                             <div class="col-4 col-top gallery">
@@ -238,11 +238,11 @@ $videos = new WP_Query(array(
         <div id="lo-que-estamos-haciendo" class="col-12 grid-center doing">
             <div class="col-11 grid">
                 <h1 class="page-title">Lo que estamos haciendo</h1>
-                <div class="col-12 col-top grid-spaceBetween">
+                <div class="col-12 grid-spaceBetween">
                     <?php if ($doing->have_posts()):
                         while ($doing->have_posts()):$doing->the_post(); ?>
-                            <div class="col-12 grid-spaceBetween gallery">
-                                <div class="col-9 carousel-container">
+                            <div class="col-12 col-top grid-spaceBetween gallery">
+                                <div class="col-8 col-top carousel-container">
                                         <?php
                                         $images = get_field('galeria_de_fotos');
                                         if ($images) {
@@ -260,12 +260,12 @@ $videos = new WP_Query(array(
                                         </div>
                                     <?php endif; ?>
                                 </div>
-                                <div class="col-2 learn-more">
-                                    <h1 class="title col-8"><?php the_title(); ?></h1>
-                                    <div class="page-text col-8 more-btn">
+                                <div class="col-3 col-top grid-center learn-more">
+                                    <h1 class="title col-12"><?php the_title(); ?></h1>
+                                    <div class="col-12 page-text more-btn">
                                         <?php the_field('resumen'); ?>
                                     </div>
-                                    <div class="col-10 more-text">
+                                    <div class="col-12 more-text">
                                         <?php the_content(); ?>
                                     </div>
                                 </div>
