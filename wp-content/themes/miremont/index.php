@@ -237,11 +237,11 @@ $videos = new WP_Query(array(
         <div id="lo-que-estamos-haciendo" class="col-12 grid-center doing">
             <div class="col-11 grid">
                 <h1 class="page-title">Lo que estamos haciendo</h1>
-                <div class="col-12 grid-spaceBetween">
+                <div class="col-12 col-top grid-spaceBetween">
                     <?php if ($doing->have_posts()):
                         while ($doing->have_posts()):$doing->the_post(); ?>
                             <div class="col-12 grid-spaceBetween gallery">
-                                <div class="col-9 col-top carousel-container">
+                                <div class="col-9 carousel-container">
                                         <?php
                                         $images = get_field('galeria_de_fotos');
                                         if ($images) {
