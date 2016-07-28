@@ -181,6 +181,9 @@ html, body {
     margin-bottom: 1.25em; }
     .museum .page-title:before {
       background: #fff; }
+  .museum .learn-more {
+    border-top: solid 0.1875em #E3E3E3;
+    margin-top: 1.25em; }
   .museum .gallery {
     margin-bottom: 1.875em; }
     .museum .gallery .title {
@@ -190,14 +193,29 @@ html, body {
       font-size: 1.375em;
       margin-top: 0.9375em;
       position: relative;
-      font-weight: normal; }
+      font-weight: normal;
+      position: relative; }
+      .museum .gallery .title:before {
+        position: absolute;
+        content: "";
+        height: 1.875em;
+        width: 1.875em;
+        top: 0;
+        left: -2.8125em;
+        background: url("../images/more-expo.png") no-repeat; }
     .museum .gallery .page-text {
-      border-top: solid 0.1875em #E3E3E3;
-      margin-top: 1.25em;
+      padding: 0;
       font-size: 1.25em;
       color: #7B7E75;
-      padding: 0;
-      font-family: ITCKabelStd-Book; }
+      font-family: ITCKabelStd-Book;
+      cursor: pointer; }
+      .museum .gallery .page-text p {
+        margin-bottom: 0; }
+    .museum .gallery .more-text {
+      font-size: 1.25em;
+      color: #7B7E75;
+      font-family: ITCKabelStd-Book;
+      cursor: pointer; }
 
 .expo {
   background: #ffffff;

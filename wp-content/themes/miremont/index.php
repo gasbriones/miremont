@@ -144,9 +144,14 @@ $videos = new WP_Query(array(
                                         </div>
                                     <?php endif; ?>
                                 </div>
-                                <div class="col-12 page-text">
-                                    <h1 class="title"><?php the_title(); ?></h1>
-                                    <?php the_content(); ?>
+                                <div class="col-12 grid-center learn-more">
+                                    <h1 class="title col-8"><?php the_title(); ?></h1>
+                                    <div class="page-text col-10 more-btn">
+                                        <?php the_field('resumen'); ?>
+                                    </div>
+                                    <div class="col-10 more-text">
+                                        <?php the_content(); ?>
+                                    </div>
                                 </div>
                             </div>
                             <?php $count++ ?>
@@ -328,7 +333,7 @@ $videos = new WP_Query(array(
         <div id="contacto" class="col-12 grid-center contact">
             <div class="col-11 grid">
                 <div class="col-6 grid">
-                    <h1 class="col-12 title">Contáctanos</h1>
+                    <h1 class="col-12 title">Contacto</h1>
                     <div class="col-10 grid info">
                         <div class="col-6">Teléfono:</div>
                         <div class="col-6 text-right">+ 54 11 15 31 21 5667</div>
