@@ -1,4 +1,9 @@
 <?php
+
+session_start();
+include("ajax/simple-php-captcha.php");
+$_SESSION['captcha'] = simple_php_captcha();
+
 get_header();
 
 $page = $_GET['page'];
@@ -144,9 +149,14 @@ $videos = new WP_Query(array(
                                         </div>
                                     <?php endif; ?>
                                 </div>
-                                <div class="col-12 page-text">
-                                    <h1 class="title"><?php the_title(); ?></h1>
-                                    <?php the_content(); ?>
+                                <div class="col-12 grid-center learn-more">
+                                    <h1 class="title col-8"><?php the_title(); ?></h1>
+                                    <div class="page-text col-10 more-btn">
+                                        <?php the_field('resumen'); ?>
+                                    </div>
+                                    <div class="col-10 more-text">
+                                        <?php the_content(); ?>
+                                    </div>
                                 </div>
                             </div>
                             <?php $count++ ?>
@@ -164,7 +174,7 @@ $videos = new WP_Query(array(
         <div id="exposiciones" class="col-12 grid-center expo">
             <div class="col-11 grid">
                 <h1 class="page-title">Exposiciones</h1>
-                <div class="col-12 grid-spaceAround grid-middle ">
+                <div class="col-12 grid-spaceAround grid-middle">
                     <?php if ($expo->have_posts()):
                         while ($expo->have_posts()):$expo->the_post(); ?>
                             <div class="col-4 col-top gallery">
@@ -241,8 +251,8 @@ $videos = new WP_Query(array(
                 <div class="col-12 grid-spaceBetween">
                     <?php if ($doing->have_posts()):
                         while ($doing->have_posts()):$doing->the_post(); ?>
-                            <div class="col-12 grid-spaceBetween gallery">
-                                <div class="col-9 col-top carousel-container">
+                            <div class="col-12 col-top grid-spaceBetween gallery">
+                                <div class="col-8 col-top carousel-container">
                                         <?php
                                         $images = get_field('galeria_de_fotos');
                                         if ($images) {
@@ -260,12 +270,12 @@ $videos = new WP_Query(array(
                                         </div>
                                     <?php endif; ?>
                                 </div>
-                                <div class="col-2 learn-more">
-                                    <h1 class="title col-8"><?php the_title(); ?></h1>
-                                    <div class="page-text col-8 more-btn">
+                                <div class="col-3 col-top grid-center learn-more">
+                                    <h1 class="title col-12"><?php the_title(); ?></h1>
+                                    <div class="col-12 page-text more-btn">
                                         <?php the_field('resumen'); ?>
                                     </div>
-                                    <div class="col-10 more-text">
+                                    <div class="col-12 more-text">
                                         <?php the_content(); ?>
                                     </div>
                                 </div>
@@ -328,7 +338,7 @@ $videos = new WP_Query(array(
         <div id="contacto" class="col-12 grid-center contact">
             <div class="col-11 grid">
                 <div class="col-6 grid">
-                    <h1 class="col-12 title">Contáctanos</h1>
+                    <h1 class="col-12 title">Contacto</h1>
                     <div class="col-10 grid info">
                         <div class="col-6">Teléfono:</div>
                         <div class="col-6 text-right">+ 54 11 15 31 21 5667</div>
@@ -345,29 +355,39 @@ $videos = new WP_Query(array(
                     </div>
                     <div class="col-10 grid info social">
                         <div class="col-6">
-                            <h1 class="col-12 title">Seguínos</h1>
+                            <h1 class="col-12 title">Podes seguirnos</h1>
                         </div>
                         <div class="col-6 text-right">
                             <ul class="social-icons">
-                                <li><a href="#" class="yt"></a></li>
-                                <li><a href="#" class="inst"></a></li>
+                                <li><a href="https://www.facebook.com/gabrielernesto.miremont" class="fb" target="_blank"></a></li>
+                                <li><a href="https://www.instagram.com/miremont_cia/" class="inst" target="_blank"></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 form">
-                    <form class="contact-form">
+                    <form class="contact-form" id="news" action="<?php echo get_template_directory_uri(); ?>/ajax/newsletter.php">
                         <label>
-                            Nombre <br> <input type="text"/>
+                            Nombre <br> <input type="text" name="name"/>
                         </label>
                         <label>
-                            e-mail <br> <input type="text"/>
+                            e-mail <br> <input type="text" name="email"/>
                         </label>
                         <label>
-                            Teléfono <br> <input type="text"/>
+                            Teléfono <br> <input type="text" name="phone"/>
                         </label>
                         <label>
-                            Consulta <br> <textarea> </textarea>
+                            Consulta <br> <textarea name="message"> </textarea>
+                        </label>
+
+                        <label>
+                            <div class="clearfix">
+                                <div>Código</div>
+                                <img class="captcha-img" src="<?php echo $_SESSION['captcha']['image_src']?>" width="100">
+                                <input type="text" id="verify" class="code" name="captcha" value="" required/>
+                                <input type="hidden" id="cap-code" name="code" value="<?php echo $_SESSION['captcha']['code']?>"/>
+                            </div>
+                            <input classs="submit" type="submit" value="Enviar">
                         </label>
                     </form>
                 </div>

@@ -401,6 +401,11 @@ html, body {
       font-family: ITCKabelStd-Book;
       padding: 0.625em;
       height: 6.25em; }
+    .contact .contact-form label .code {
+      width: 20%; }
+    .contact .contact-form label input[type="submit"] {
+      width: 20%;
+      float: right; }
 
 #footer {
   background-color: #B57E11;

@@ -548,6 +548,8 @@ html, body {
         color: #7B7E75;
         font-family: ITCKabelStd-Book;
       }
+
+
       textarea{
         border: solid 1px #7B7E75;
         width: 100%;
@@ -557,6 +559,14 @@ html, body {
         font-family: ITCKabelStd-Book;
         padding:(10em/16);
         height: (100em/16);
+
+      }
+      .code{
+        width: 20%;
+      }
+      input[type="submit"]{
+        width: 20%;
+        float: right;
       }
     }
   }

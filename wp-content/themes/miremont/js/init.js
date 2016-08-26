@@ -53,4 +53,24 @@ $(document).ready(function () {
         });
         return false;
     });
+
+    $('#news').submit(function (e) {
+        e.preventDefault();
+        var $self = $(this);
+
+        if($('#verify').val() == $('#cap-code').val()){
+            $.ajax({
+                url: $self.attr('action'),
+                data: $self.serialize(),
+                success: function () {
+                    alert("Su mensaje fue enviado, nos pondremos en contacto a la brevedad.")
+                    location.reload();
+
+                }
+            });
+        }else{
+            alert('El código ingresado no es correcto, intente nuevamente.');
+        }
+    });
+
 });

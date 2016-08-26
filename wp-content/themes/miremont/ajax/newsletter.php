@@ -1,10 +1,11 @@
 <?
 $name = $_GET['name'];
 $email = $_GET['email'];
-$mensaje = $_GET['msg'];
+$phone = $_GET['phone'];
+$mensaje = $_GET['message'];
 
 
-$destinatario = "briones.gaston@gmail.com";
+$destinatario = "gabrielmiremont@gmail.com";
 $asunto = "Nueva consulta";
 $cuerpo = "
 <html>
@@ -12,12 +13,13 @@ $cuerpo = "
        <title>$asunto</title>
     </head>
     <body>
-    <img src='http://gasbriones.com/demos/lotteri/wp-content/themes/lotteri/images/logo-2.png' />
+    <img src='http://miremont.com.ar/wp-content/themes/miremont/images/logo-miremont.png' />
     <h1>Nueva consulta:</h1>
     <p>
     <hr>
     <b>Name:</b> $name <br/><br/>
     <b>Email:</b> $email <br/><br/>
+    <b>Teléfono:</b> $phone <br/><br/>
     <b>Mensaje:</b> $mensaje <br/><br/>
     </p>
     </body>
@@ -35,6 +37,3 @@ mail($destinatario,$asunto,$cuerpo,$headers);
 
 
 
-00.
-12102}}
-                6t6t rddd

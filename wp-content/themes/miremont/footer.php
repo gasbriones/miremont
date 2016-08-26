@@ -1,3 +1,4 @@
+		<?php do_action('installation_point'); ?>
 <footer id="footer" class="grid-center">
     <div class="col-11 grid-spaceBetween">
         <div class="col-4">
