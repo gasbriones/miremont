@@ -10,6 +10,7 @@
   font-style: normal;
 }
 
+
 @font-face {
   font-family: 'BelleroseLight';
   src: url('../fonts/BelleroseLight.eot?#iefix') format('embedded-opentype'),
@@ -257,7 +258,10 @@ html, body {
       background: #fff;
     }
   }
-
+  .learn-more{
+    border-top: solid (3em/16) #E3E3E3;
+    margin-top: (20em/16);
+  }
   .gallery {
     margin-bottom: (30em/16);
 
@@ -269,15 +273,35 @@ html, body {
       margin-top: (15em/16);
       position: relative;
       font-weight: normal;
+      position: relative;
+
+      &:before{
+        position: absolute;
+        content: "";
+        height: (30em/16);
+        width: (30em/16);
+        top:0;
+        left: (-45em/16);
+        background: url("../images/more-expo.png") no-repeat;
+      }
     }
 
     .page-text {
-      border-top: solid (3em/16) #E3E3E3;
-      margin-top: (20em/16);
+      padding: 0;
       font-size: (20em/16);
       color: #7B7E75;
-      padding: 0;
       font-family: ITCKabelStd-Book;
+      cursor: pointer;
+      p{
+        margin-bottom: 0;
+      }
+    }
+
+    .more-text{
+      font-size: (20em/16);
+      color: #7B7E75;
+      font-family: ITCKabelStd-Book;
+      cursor: pointer;
     }
   }
 }
@@ -431,11 +455,7 @@ html, body {
       font-family: ITCKabelStd-Book;
       font-size: (20em/16);
       color: #7B7E75;
-      text-align: justify;
       padding: 0;
-      p{
-        margin: 0;
-      }
     }
     .fancybox{
       img{

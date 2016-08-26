@@ -5,7 +5,7 @@ $(document).ready(function () {
     if(page != null && page != '' ){
         setTimeout(function () {
             $('#'+page).animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:40});
-        },1000);
+        },500);
     }
 
     $('.menu li a').click(function () {
