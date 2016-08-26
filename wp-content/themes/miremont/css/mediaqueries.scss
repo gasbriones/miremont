@@ -1,54 +1,59 @@
+
+
+
+
 @media screen and (max-width: 35.5em){
-  .gradient{
-    height: auto;
-  }
-  .sponsor{
-    margin: (20em/16) 0;
-  }
-
-  .header{
-    overflow: hidden;
-  }
-  .header .header-wrapper .logo{
-    position: relative;
-    margin: 0 auto;
-    display: table;
-    width: 80%;
-    left: inherit;
-    transform:none;
-    img{
-      width: 100%;
+  [class*="grid"] > [class*="col-4"] {
+    &.gallery {
+      flex-basis: 100%;
+      max-width: 100%;
     }
   }
 
-  .header-wrapper{
-    figure{
-      position: absolute;
-      top:0;
-      left: 0;
-      z-index: -1;
+  #contacto{
+    .title{
+      margin-bottom: (10em/16);
     }
   }
-  .header .header-wrapper .slogan{
-    position: relative;
-    bottom: inherit;
-    margin-top: (20em/16);
+
+  .page-title{
+    font-size: (42em/16);
   }
 
-  .header .menu-wrapper{
-    position: relative;
-    bottom: inherit;
-  }
 
-  .header .menu-wrapper .menu li{
-    width: 100%;
-    margin-bottom: (10em/16);
-  }
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 48em){
-  .header .menu-wrapper .menu li a::before{
-    left: 5%;
+  #burger {
+    display: block;
+  }
+  .header{
+    padding-top: (10em/16);
+  }
+  .menu {
+    background: #ffffff none repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 2.1875em;
+    position: absolute;
+    right: -600%;
+    transition: right 0.5s ease 0s;
+    z-index: 999;
+    display: table;
+    li{
+      float: none !important;
+      margin-bottom: (10em/16);
+    }
+  }
+
+  #check:checked ~ .menu {
+    right: 0;
   }
 }
 

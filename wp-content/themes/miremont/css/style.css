@@ -450,4 +450,13 @@ html, body {
   margin: 0.3125em;
   font-size: 1.75em; }
 
+#burger {
+  display: none;
+  position: absolute;
+  right: 0.625em;
+  top: 0.625em; }
+
+#check {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
