@@ -156,10 +156,10 @@ html, body {
 .main {
   margin-top: 1.5625em; }
 
-.block {
+body {
   position: relative; }
-  .block .overlay {
-    position: absolute;
+  body .overlay {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

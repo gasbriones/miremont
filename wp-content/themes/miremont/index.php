@@ -48,6 +48,7 @@ $articles = getPost(6,$per_articles);
 $videos = getPost(7,'-1');
 ?>
 <body <?php body_class(); ?>>
+<div class="overlay"></div>
 <div id="main" class="clearfix wrapper">
     <header id="header" class="header">
         <div class="grid">
@@ -121,8 +122,7 @@ $videos = getPost(7,'-1');
                     </div>
                 <?php endwhile; endif; ?>
         </div>
-        <div id="museos" class="col-12 grid-center museum block">
-            <div class="overlay"></div>
+        <div id="museos" class="col-12 grid-center museum block">S
             <div class="col-11 grid">
                 <h1 class="page-title">Museos</h1>
                 <div class="col-12 grid-spaceBetween">
@@ -171,7 +171,6 @@ $videos = getPost(7,'-1');
             </div>
         </div>
         <div id="exposiciones" class="col-12 grid-center expo block">
-            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Exposiciones</h1>
                 <div class="col-12 grid-spaceAround grid-middle">
@@ -220,7 +219,6 @@ $videos = getPost(7,'-1');
             </div>
         </div>
         <div id="equipo" class="col-12 grid-center team block">
-            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Equipo</h1>
                 <div class="col-12 grid">
@@ -249,7 +247,6 @@ $videos = getPost(7,'-1');
             </div>
         </div>
         <div id="lo-que-estamos-haciendo" class="col-12 grid-center doing block">
-            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Lo que estamos haciendo</h1>
                 <div class="col-12 grid-spaceBetween">
@@ -299,7 +296,6 @@ $videos = getPost(7,'-1');
             </div>
         </div>
         <div id="prensa" class="col-12 grid-center press block">
-            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Prensa</h1>
                 <div class="col-12 grid articles">

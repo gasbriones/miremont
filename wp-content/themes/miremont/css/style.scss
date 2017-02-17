@@ -234,10 +234,10 @@ html, body {
   margin-top: (25em/16);
 }
 
-.block{
+body{
   position: relative;
   .overlay{
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     width: 100%;

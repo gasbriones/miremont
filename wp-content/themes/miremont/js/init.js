@@ -8,6 +8,9 @@ $(document).ready(function () {
         },1000);
     } */
 
+    $('.menu li > ul li a').click(function () {
+        $('.overlay').css({display:'block'});
+    });
 
     $("#header").sticky({topSpacing:0});
 
