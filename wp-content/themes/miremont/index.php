@@ -1,8 +1,6 @@
 <?php
 
-session_start();
-include("ajax/simple-php-captcha.php");
-$_SESSION['captcha'] = simple_php_captcha();
+include 'submenu/sub-menu.php';
 
 get_header();
 
@@ -31,44 +29,23 @@ if ($page != '') {
     }
 }
 
+function getPost ($category = '' ,$offset = 3){
+    return  new WP_Query(array(
+        'cat' => $category,
+        'order' => 'ASC',
+        'posts_per_page' => $offset
+    ));
+}
+
 
 $home = new WP_Query('page_id=9');
 $about = new WP_Query('page_id=2');
-
-$museums = new WP_Query(array(
-    'cat' => '2',
-    'order' => 'ASC',
-    'posts_per_page' => $per_museum
-));
-
-$expo = new WP_Query(array(
-    'cat' => '3',
-    'order' => 'ASC',
-    'posts_per_page' => $per_expos
-));
-
-$team = new WP_Query(array(
-    'cat' => '4',
-    'order' => 'ASC'
-));
-
-$doing = new WP_Query(array(
-    'cat' => '5',
-    'order' => 'ASC',
-    'posts_per_page' => $per_doing
-));
-
-$articles = new WP_Query(array(
-    'cat' => '6',
-    'order' => 'ASC',
-    'posts_per_page' => $per_articles
-));
-
-$videos = new WP_Query(array(
-    'cat' => '7',
-    'order' => 'ASC'
-));
-
+$museums = getPost(2,$per_museum);
+$expo = getPost(3,$per_expos);
+$team = getPost(4,'-1');
+$doing = getPost(5,$per_doing);
+$articles = getPost(6,$per_articles);
+$videos = getPost(7,'-1');
 ?>
 <body <?php body_class(); ?>>
 <div id="main" class="clearfix wrapper">
@@ -84,14 +61,28 @@ $videos = new WP_Query(array(
                         <img class="icon" src="<?php echo get_template_directory_uri(); ?>/images/menu-alt.svg">
                     </div>
                 </label>
+
+
                 <ul class="menu col-11">
-                    <li for="check"><a href="#acerca-de">Acerca de</a></li>
-                    <li for="check"><a href="#museos">Museos</a></li>
-                    <li for="check"><a href="#exposiciones">exposiciones</a></li>
-                    <li for="check"><a href="#equipo">Equipo</a></li>
-                    <li for="check"><a href="#lo-que-estamos-haciendo">Lo que estamos haciendo</a></li>
-                    <li for="check"><a href="#prensa">Prensa</a></li>
-                    <li for="check"><a href="#contacto">Contacto</a></li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#acerca-de">Acerca de</a></li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#museos">Museos</a>
+                        <ul class="sub_menu">
+                            <?php getSubMenu(getPost(2,'-1'),'museos',3) ?>
+                        </ul>
+                    </li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#exposiciones">exposiciones</a>
+                        <ul class="sub_menu">
+                            <?php getSubMenu(getPost(3,'-1'),'exposiciones',3) ?>
+                        </ul>
+                    </li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#equipo">Equipo</a></li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#lo-que-estamos-haciendo">Lo que estamos haciendo</a>
+                        <ul class="sub_menu">
+                            <?php getSubMenu(getPost(5,'-1'),'lo-que-estamos-haciendo',2) ?>
+                        </ul>
+                    </li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#prensa">Prensa</a></li>
+                    <li for="check" class="menu_item"><a href="<?php echo site_url(); ?>/#contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -130,13 +121,15 @@ $videos = new WP_Query(array(
                     </div>
                 <?php endwhile; endif; ?>
         </div>
-        <div id="museos" class="col-12 grid-center museum">
+        <div id="museos" class="col-12 grid-center museum block">
+            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Museos</h1>
                 <div class="col-12 grid-spaceBetween">
                     <?php if ($museums->have_posts()):
                         while ($museums->have_posts()):$museums->the_post(); ?>
-                            <div class="col-4_xs-12 col-top grid gallery">
+                            <?php $count++ ?>
+                            <div class="col-4_xs-12 col-top grid gallery" id="museos-<?php echo $count + 3?>">
                                 <div class="col-12 carousel-container">
                                     <div class="carousel hmedia">
                                         <?php
@@ -165,25 +158,28 @@ $videos = new WP_Query(array(
                                     </div>
                                 </div>
                             </div>
-                            <?php $count++ ?>
+
                         <?php endwhile; endif; ?>
                 </div>
                 <div class="col-12 grid-center">
                     <div class="col-2_xs-5 more">
-                        <a href="<?php echo site_url(); ?>/?page=museos&more=<?php echo $count + 3 ?>">
+                        <a href="<?php echo site_url(); ?>/?page=museos&more=<?php echo $count + 3 ?>#museos-<?php echo $count + 3?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_white.png"/>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="exposiciones" class="col-12 grid-center expo">
+        <div id="exposiciones" class="col-12 grid-center expo block">
+            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Exposiciones</h1>
                 <div class="col-12 grid-spaceAround grid-middle">
                     <?php if ($expo->have_posts()):
-                        while ($expo->have_posts()):$expo->the_post(); ?>
-                            <div class="col-4 col-top gallery">
+                        while ($expo->have_posts()):$expo->the_post();
+                            $count_expos++;
+                        ?>
+                            <div class="col-4 col-top gallery" id="exposiciones-<?php echo $count_expos + 3?>">
                                 <div class="col-12 col-top carousel-container">
                                     <div class="carousel hmedia">
                                         <?php
@@ -212,18 +208,19 @@ $videos = new WP_Query(array(
                                     </div>
                                 </div>
                             </div>
-                            <?php $count_expos++; endwhile; endif; ?>
+                            <?php endwhile; endif; ?>
                 </div>
                 <div class="col-12 grid-center">
                     <div class="col-2_xs-5 more">
-                        <a href="<?php echo site_url(); ?>/?page=exposiciones&more=<?php echo $count_expos + 3 ?>">
+                        <a href="<?php echo site_url(); ?>/?page=exposiciones&more=<?php echo $count_expos + 3 ?>#exposiciones-<?php echo $count_expos + 3?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_black.png"/>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="equipo" class="col-12 grid-center team">
+        <div id="equipo" class="col-12 grid-center team block">
+            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Equipo</h1>
                 <div class="col-12 grid">
@@ -251,13 +248,16 @@ $videos = new WP_Query(array(
                 </div>
             </div>
         </div>
-        <div id="lo-que-estamos-haciendo" class="col-12 grid-center doing">
+        <div id="lo-que-estamos-haciendo" class="col-12 grid-center doing block">
+            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Lo que estamos haciendo</h1>
                 <div class="col-12 grid-spaceBetween">
                     <?php if ($doing->have_posts()):
-                        while ($doing->have_posts()):$doing->the_post(); ?>
-                            <div class="col-12 col-top grid-spaceBetween gallery">
+                        while ($doing->have_posts()):$doing->the_post();
+                            $count_doing++;
+                        ?>
+                            <div class="col-12 col-top grid-spaceBetween gallery" id="lo-que-estamos-haciendo-<?php echo $count_doing + 2 ?>">
                                 <div class="col-8_xs-12 col-top carousel-container">
                                         <?php
                                         $images = get_field('galeria_de_fotos');
@@ -287,26 +287,28 @@ $videos = new WP_Query(array(
                                 </div>
 
                             </div>
-                            <?php $count_doing++; endwhile; endif; ?>
+                            <?php  endwhile; endif; ?>
                 </div>
                 <div class="col-12 grid-center">
                     <div class="col-2_xs-5 more">
-                        <a href="<?php echo site_url(); ?>/?page=lo-que-estamos-haciendo&more=<?php echo $count_doing + 2 ?>">
+                        <a href="<?php echo site_url(); ?>/?page=lo-que-estamos-haciendo&more=<?php echo $count_doing + 2 ?>#lo-que-estamos-haciendo-<?php echo $count_doing + 2 ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_black.png"/>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="prensa" class="col-12 grid-center press">
+        <div id="prensa" class="col-12 grid-center press block">
+            <div class="overlay"></div>
             <div class="col-11 grid">
                 <h1 class="page-title">Prensa</h1>
                 <div class="col-12 grid articles">
                     <h2 class="subtitle">Artículos</h2>
                     <div class="col-12 grid">
                         <?php if ($articles->have_posts()):
-                            while ($articles->have_posts()):$articles->the_post(); ?>
-                                <div class="col-3_xs-6 grid-center item">
+                            while ($articles->have_posts()):$articles->the_post();
+                                $count_articles++; ?>
+                                <div class="col-3_xs-6 grid-center item" id="articles-<?php echo $count_articles + 4 ?>">
                                     <div class="col-11">
                                         <figure class="photo aspect">
                                             <a target="_blank" href="<?php echo the_field('page_image') ?>"
@@ -316,17 +318,18 @@ $videos = new WP_Query(array(
                                         </figure>
                                     </div>
                                 </div>
-                                <?php $count_articles++; endwhile; endif; ?>
+                                <?php endwhile; endif; ?>
                     </div>
                     <div class="col-12 grid-center">
                         <div class="col-2_xs-5 more">
-                            <a href="<?php echo site_url(); ?>/?page=prensa&more=<?php echo $count_articles + 4 ?>">
+                            <a href="<?php echo site_url(); ?>/?page=prensa&more=<?php echo $count_articles + 4 ?>#articles-<?php echo $count_articles + 4 ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/more_btn_black.png"/>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 grid videos">
+                    <div class="overlay"></div>
                     <h2 class="subtitle">Videos</h2>
                     <div class="col-12 grid">
                         <?php if ($videos->have_posts()):
@@ -343,60 +346,38 @@ $videos = new WP_Query(array(
         </div>
         <div id="contacto" class="col-12 grid-center contact">
             <div class="col-11 grid">
-                <div class="col-6_xs-12 grid">
-                    <h1 class="col-12 title">Contacto</h1>
-                    <div class="col-10_xs-12 grid info">
-                        <div class="col-6_xs-4">Teléfono:</div>
-                        <div class="col-6_xs-8 text-right">+ 54 11 15 31 21 5667</div>
-                    </div>
-                    <div class="col-10_xs-12 grid info">
-                        <div class="col-6_xs-4">Email:</div>
-                        <div class="col-6_xs-8 text-right"><a href="mailto:gm@miremont.com.ar">gm@miremont.com.ar</a></div>
-                    </div>
-                    <div class="col-10_xs-12 grid info">
-                        <div class="col-6_xs-4">Dirección:</div>
-                        <div class="col-6_xs-8 text-right">Enrique Martinez 210, 2do. B</br>
-                            C.A.B.A, Argentina
+                <div class="col-12_xs-12 grid">
+                    <h1 class="title">Contacto</h1><br><br>
+                    <div class="grid">
+                        <div class="col-10_xs-12 grid info">
+                            <div class="col-6_xs-4">Teléfono:</div>
+                            <div class="col-6_xs-8 text-right">+ 54 11 15 31 21 5667</div>
                         </div>
-                    </div>
-                    <div class="col-10_xs-12 grid info social">
-                        <div class="col-6_xs-5">
-                            <h1 class="col-12 title">Podes seguirnos</h1>
+                        <div class="col-10_xs-12 grid info">
+                            <div class="col-6_xs-4">Email:</div>
+                            <div class="col-6_xs-8 text-right"><a href="mailto:gm@miremont.com.ar">gm@miremont.com.ar</a></div>
                         </div>
-                        <div class="col-6_xs-7 text-right">
-                            <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/gabrielernesto.miremont" class="fb" target="_blank"></a></li>
-                                <li><a href="https://www.instagram.com/miremont_cia/" class="inst" target="_blank"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6_xs-12 form">
-                    <form class="contact-form" id="news" action="<?php echo get_template_directory_uri(); ?>/ajax/newsletter.php">
-                        <label>
-                            Nombre <br> <input type="text" name="name"/>
-                        </label>
-                        <label>
-                            e-mail <br> <input type="text" name="email"/>
-                        </label>
-                        <label>
-                            Teléfono <br> <input type="text" name="phone"/>
-                        </label>
-                        <label>
-                            Consulta <br> <textarea name="message"> </textarea>
-                        </label>
-
-                        <label>
-                            <div class="clearfix">
-                                <div>Código</div>
-                                <img class="captcha-img" src="<?php echo $_SESSION['captcha']['image_src']?>" width="100">
-                                <input type="text" id="verify" class="code" name="captcha" value="" required/>
-                                <input type="hidden" id="cap-code" name="code" value="<?php echo $_SESSION['captcha']['code']?>"/>
+                        <div class="col-10_xs-12 grid info">
+                            <div class="col-6_xs-4">Dirección:</div>
+                            <div class="col-6_xs-8 text-right">Enrique Martinez 210, 2do. B</br>
+                                C.A.B.A, Argentina
                             </div>
-                            <input classs="submit" type="submit" value="Enviar">
-                        </label>
-                    </form>
+                        </div>
+                        <div class="col-10_xs-12 grid info social">
+                            <div class="col-6_xs-5">
+                                <h1 class="col-12 title">Podes seguirnos</h1>
+                            </div>
+                            <div class="col-6_xs-7 text-right">
+                                <ul class="social-icons">
+                                    <li><a href="https://www.facebook.com/gabrielernesto.miremont" class="fb" target="_blank"></a></li>
+                                    <li><a href="https://www.instagram.com/miremont_cia/" class="inst" target="_blank"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>

@@ -1,18 +1,13 @@
 $(document).ready(function () {
 
-
+    /*
     var page = $.getURLParam("page");
     if(page != null && page != '' ){
         setTimeout(function () {
             $('#'+page).animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:40});
-        },500);
-    }
+        },1000);
+    } */
 
-    $('.menu li a').click(function () {
-        var section = $(this).attr('href');
-        $(section).animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:40});
-        return false;
-    });
 
     $("#header").sticky({topSpacing:0});
 
@@ -72,5 +67,11 @@ $(document).ready(function () {
             alert('El código ingresado no es correcto, intente nuevamente.');
         }
     });
+
+    setTimeout(function () {
+        $('.overlay').css({display:'none'});
+    },1000)
+
+
 
 });
